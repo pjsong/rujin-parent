@@ -3,17 +3,6 @@
   <groupId>ruking-web</groupId>
   <artifactId>ruking-web</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <resources>
-      <resource>
-        <directory>src</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
-  </build>
   <dependencies>
   	<dependency>
   		<groupId>commons-logging</groupId>
@@ -138,4 +127,11 @@
   		<version>1.0.4</version>
   	</dependency>
   </dependencies>
+  <packaging>war</packaging>
+  <parent>
+  	<groupId>ruking</groupId>
+  	<artifactId>parent</artifactId>
+  	<version>1.0-SNAPSHOT</version>
+  	<relativePath>..</relativePath>
+  </parent>
 </project>

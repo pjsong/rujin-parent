@@ -68,4 +68,7 @@
 	</profiles>
 
 
+	<modules>
+		<module>rujin</module>
+	</modules>
 </project>
