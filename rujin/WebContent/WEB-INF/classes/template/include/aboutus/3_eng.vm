@@ -1,0 +1,21 @@
+﻿#parse("include/aboutus/aboutcommon_eng.vm")
+
+<td align=left>
+<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">Introducing Idea</p>
+	<p class="aboutDetail">Automated Devices introduced 3E idea, which represents ideas of 3 types of engineers, to help enterpreneurs to reduce their cost effectively.</p>
+	<hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">Product Targeting</p>
+	<p class="aboutDetail">Based on advanced Manufacturing Industry, focusing on R&D of Automated Producing Devices and Automated Process Detecting Devices, to make replacing human hand,brain with machine, mocri-chip controlling into real, and so promote low-cost producing and high-speed processing detection.</p>
+	<p class="aboutDetail">Battery Devices<br />
+	Involving Cylindric Battery,Polymeric Battery, Powerful Battery producing devices.<br />
+	Detection Devides<br />
+	Involving Processing Detecting Devices for Electronical Assembling Manufacturing Industry(including computer, Appliance, and Toy related industries), Electronical Manufacturing Industry(including motor,battery,switch,Potentiometer industries). Industrial Department, Quality Department, Producing Department are all covered.
+	Production Line Monitoring Board<br />
+	By building a network platform, with data-collector, to gather up the correct status data(running status, ratio of malfunction, counting of products, balances) of production lines automatically. With a LED/Monitor screen, the network will notice related staff deal with any issues occured at the first place, so that he could response quick and effective.
+	<br />Non-Standard Devices<br />
+	Involving Devices for Electronical Equipment Manufacturing Industry, Electronical Chip Manufacturing Industry. Customer centered and serve specific manufactures.<br />
+</td>
+</tr></table></td>
+</tr></table>
+</div>

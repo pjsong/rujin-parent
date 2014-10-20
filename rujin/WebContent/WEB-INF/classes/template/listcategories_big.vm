@@ -1,0 +1,4 @@
+#parse("include/header_big.vm")
+#parse("include/manage/manage.vm")
+#parse("include/manage/listcategories_big.vm")
+#parse("include/footer_big.vm")

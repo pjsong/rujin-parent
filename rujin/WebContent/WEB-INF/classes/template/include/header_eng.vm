@@ -1,0 +1,91 @@
+﻿<html>  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Dongguan Ruking Automation Equipment Technology Limited Company</title>
+	<link href="/static/css/rotation.css" type="text/css" rel="stylesheet">
+	<link href="/static/css/header/header.css" type="text/css" rel="stylesheet">
+	<link href="/static/css/homepage.css" type="text/css" rel="stylesheet">
+	<style>
+.s-form {
+    background: url("$!_url/static/img/header/searchBg.gif") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    position: relative;
+    right: -300px;
+    top: -20px;
+    width: 178px;
+}
+.s-form .s-input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 19px;
+    left: 0;
+    line-height: 19px;
+    padding-left: 2px;
+    position: absolute;
+    top: 0;
+    width: 155px;
+}
+.s-form label.header_search_kw {
+    color: #CCCCCC;
+    left: 10px;
+    position: relative;
+    top: 2px;
+}
+.s-form .s-Btn {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 23px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 23px;
+}
+</style>
+	<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.cycle.all.2.72.js"></script>
+	<script type="text/javascript" src="/static/js/register.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('#slideshow').cycle({
+          fx:     'scrollRight',//fade,turnDown,fade,curtainX,scrollRight (click),zoom,shuffle
+          speed:  'slow',//fast
+          timeout: 6000,
+          pager:  '#nav',
+          slideExpr: 'img',
+          pagerEvent: 'mouseover',
+          pauseOnPagerHover: true
+        });
+      });
+    </script>
+<script>
+function checkInput()
+{
+if (document.searchform.searchword.value.indexOf('Search Products...')!=-1 || document.searchform.searchword.value.trim()==''){
+document.searchform.searchword.value='';
+document.searchform.searchword.focus();
+return false;
+}
+else{
+return true;
+}
+}
+ </script>
+</head><body  style="background-color: #fafafa;">
+<table style="background-color: #8a8a8a;/*h160,b120*/" align="center" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td rowspan=2 height="120" width="380" valign="center" align="center"><a href="$_url/"><img height="79" width="200" alt="Ruking Automated Device Tech. Ltd. Co." src="$_url/static/img/logo1-1.jpg" style=""></a></td>
+	<td valign="bottom" align="center" style="width:700px;">
+        <table width="600px" cellspacing="0" cellpadding="0" border="0"  style="font-size:12px;">
+          <tbody>
+          <tr>
+			<td colspan=8 valign="bottom" align=center style="padding-bottom:0px;width:300px;"><span class="headerlanguage">
+			<a href="$_url/index.jhtml"> Simplified Chinese </a>|<a href="$_url/index_big.jhtml"> Traditional Chinese </a></span></td>
+          </tr><tr><td align="left" colspan=8 style="padding-top:12px;"><div id="menu">
+		<a href="$_url/index_eng.jhtml">&nbsp;&nbsp;HOME PAGE&nbsp;</a> <span class="seperator"> | <a href="$_url/about/aboutus_eng.jhtml">&nbsp;&nbsp;ABOUT RUKING&nbsp;</a> <span class="seperator">| </span><a href="$_url/products_eng.jhtml">&nbsp;PRODUCTS&nbsp;</a>&nbsp;<span class="seperator"> | </span>
+		<a href="$_url/about/customerservice_eng.jhtml">&nbsp;CONTACT US&nbsp;&nbsp;</a></div><td>      </tr>
+        </tbody></table>
+    </td>
+	<td style="width:300px;"></td>
+  </tr>
+</tbody></table>
+

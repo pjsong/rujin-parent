@@ -1,0 +1,43 @@
+﻿<style type="text/css">
+a.registbtn {
+    background: none repeat scroll 0 0 #D42415;
+    color: #DBDBDB;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 62px;
+}
+.loginbtn {
+    background: none repeat scroll 0 0 #D42415;
+    border: medium none;
+    color: #DBDBDB;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    width: 62px;
+}</style>               
+<link href="/static/css/header/header.css" type="text/css" rel="stylesheet">
+##src="$_url/static/img/body/loginpic.jpg">
+			<table width=800px align=center border=0>
+			<tbody><tr><td><img src="$_url/static/img/body/loginpic.jpg"></td><td>
+				  <form name="formlogin" id="formlogin" action="$_url/login.jhtml" method="post">
+				 <table border=0 style="padding-top:30px;">
+				 <tr width="350px"><td colspan=3><p align=center style="height:34px;line-height:26px;text-align:center;color: #565555;font-size:12px;font-family: arial,Helvetica,sans-serif,Verdana;">如果您已经注册个人会员，请您先登录！</p></td></tr>
+                  <tr><td><span class="headerlabel">用户名：</span></td><td colspan=2><input class="headerinputbox" type="text" id="loginName" name="loginName"></td>
+                  </tr><tr><td><span class="headerlabel">密码：</span></td><td width="100px"><input class="headerinputbox" type="password" id="loginPassword" name="loginPassword"></td>
+                  <td align="right"><input type="submit" class="loginbtn" value="登 录" id="doit" name="doit">
+				  ##<input type="image" src="$_url/static/img/header/login.jpg" name="Submit">
+				  </td>
+                </tr>
+				<tr><td  colspan=3 align=center style="height:34px;width:200px;padding-right:20px;line-height:26px;text-align:left;color: #565555;font-size:12px;font-family: arial,Helvetica,sans-serif,Verdana;">还没有注册？马上注册 ！
+				<a class="registbtn" title="注册" href="reg.jhtml">注册</a></td><td></td></tr>
+</form>
+              </tbody></table>
+			  </td></tr></table>
+##			  <input type="submit" class="loginbtn" value="登 录" id="button" name="button">

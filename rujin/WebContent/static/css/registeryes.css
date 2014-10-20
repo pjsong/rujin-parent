@@ -1,0 +1,13 @@
+.a_menu_02 {
+    border-bottom: 1px solid #C7D6E2;
+    color: #006699;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 26px;
+    text-indent: 10px;
+}
+.tr, td, div {
+    font-size: 12px;
+    word-wrap: break-word;
+    color: #333333;
+}

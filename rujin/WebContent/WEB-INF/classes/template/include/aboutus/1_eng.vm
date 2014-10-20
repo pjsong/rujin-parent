@@ -1,0 +1,33 @@
+﻿#parse("include/aboutus/aboutcommon_eng.vm")
+
+<td align=left>
+<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">Introductions</p>
+	<p class="aboutDetail">Based on the Corporation's destination "Dedicated to Automated Devices", Ruking is always focusing on Production Industry, contributing to the R&D of Automated Devices. 
+	</p><hr / style="color:#ebebeb;height:5px;">
+
+	<p class="aboutHeader">Destination</p>
+	<p class="aboutDetail">Customer centered，Helping with long-term values for customers。<br />
+    Code of Value:<br />
+	<div style="text-indent:2em;line-height: 15px;font-size:14px;fed802"><strong>1) </strong>&nbsp;Customers' Success
+	</div><div style="text-indent:2em;line-height: 15px;font-size:14px;fed802"><strong>2)</strong>&nbsp;&nbsp;Broader Vision From Group
+	</div><div style="text-indent:2em;line-height: 15px;font-size:14px;fed802"><strong>3)</strong>&nbsp;&nbsp;Innovation
+	</div><div style="text-indent:2em;line-height: 15px;font-size:14px;fed802"><strong>4)</strong>&nbsp;&nbsp;Grateful Mind
+	</div>
+	<div style="font-size:15px;text-indent:40em;"><a href="$_url/about/aboutus_eng.jhtml?id=2">[More...]</a></div>
+</p><hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">Product Envision</p>
+	<p class="aboutDetail">Our Automated Devices introduced concept of '3E', which is 'Production Engineer,Industrial Enginner,Quality Engineer', representing achievements of three types of engineers, helps entrepreneurs save costs effectively.  </p><p style="text-indent:40em;font-size:15px;"><a href="$_url/about/aboutus_eng.jhtml?id=3">[More...]</a></p>
+##	<hr / style="color:#ebebeb;height:2px;">
+##	<p class="aboutHeader">Code of Ruking</p>
+##	<p class="aboutDetail">
+##	<div style="text-indent:2em;line-height: 20px;font-size:14px;"><strong>1)</strong>Keeping Cautious and Concentrating.
+##	</div><div style="text-indent:2em;line-height: 20px;font-size:14px;"><strong>2)</strong>Solving problems before it shows；
+##	</div><div style="text-indent:2em;line-height: 20px;font-size:14px;"><strong>3)</strong>Keeping Close Eyes on Details。
+##	</div></p>
+	</td></tr>
+</table>
+<br /><br /><br /><br />
+</td>
+</tr></table>
+</div>

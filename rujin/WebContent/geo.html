@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDBKCaFMtJ8jOz0LmsVsR8qShkjiX1lO44&sensor=false">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+    	var myLatlng = new google.maps.LatLng(23.04378, 113.69855);
+
+        var myOptions = {
+          center: myLatlng,
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title:"东莞市如金自动化设备科技有限公司（点中心点查看说明）"
+        });
+        
+        var contentString = '<span style="font-size:12px;"><a href="/index.jhtml" style="color:#444444">东莞市如金自动化设备科技有限公司<br />DongGuan Ruking Automation Equipment Technology Limited Company</a></span>"';
+    	var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    	});
+    	google.maps.event.addListener(marker, 'click', function() {
+    		  infowindow.open(map,marker);
+    		});
+      }
+    </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas" style="width:100%; height:100%"></div>
+  </body>
+</html>

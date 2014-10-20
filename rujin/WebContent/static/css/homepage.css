@@ -1,0 +1,34 @@
+#xwgg {
+    float: left;
+}
+#xwgg dl {
+    margin: 0px 0 0 2px;
+}
+#xwgg dl dt a {
+    background: url('/static/img/footer/ico01.gif') no-repeat scroll left center transparent;
+    display: block;
+    height: 20px;
+    margin-top: 5px;
+    padding-left: 12px;
+    white-space: nowrap;
+}
+#xwgg dl dt a:hover {
+    background: url('/static/img/footer/hover01.jpg') no-repeat scroll left center transparent;
+    color: #ee1111;
+}
+#xwgg dl dt a:active {
+    background: url('/static/img/footer/click01.gif') no-repeat scroll left center transparent;
+}
+#xwgg dl dd {
+    margin-left: 12px;
+    padding-bottom: 5px;
+}
+#xwgg dl a {
+    color: #606060;
+}
+a.all:link {
+    color: #606060;
+}
+a.all:hover {
+    color: #ee1111;
+}

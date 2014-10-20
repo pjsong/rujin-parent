@@ -1,0 +1,8 @@
+﻿<div align=center style="margin-top:-20px;">
+	<div id="slideshow" align=center class="pics" style="border: #ddd solid 1px;overflow: hidden;">
+	<div id="nav"></div>
+	<a href="$!_url/index.jhtml"> <img  alt="Dongguan Ruking Automation Equipment Technology Limited Company" src="/static/img/rotation/sample1.jpg" border="0" width="100%" height="400px" /></a>
+	<a href="$!_url/index.jhtml"> <img  alt="Dongguan Ruking Automation Equipment Technology Limited Company" src="/static/img/rotation/sample2.jpg" border="0" width="100%" height="400px"  /></a>
+	<a href="$!_url/index.jhtml"> <img  alt="Dongguan Ruking Automation Equipment Technology Limited Company" src="/static/img/rotation/sample3.jpg" border="0" width="100%" height="400px"  /></a>
+	</div>
+</div>

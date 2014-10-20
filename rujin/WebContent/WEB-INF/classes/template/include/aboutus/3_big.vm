@@ -1,0 +1,24 @@
+﻿#parse("include/aboutus/aboutcommon_big.vm")
+
+<td align=left>
+<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">引入理念</p>
+	<p class="aboutDetail">自動化設備引入3E理念，凝集了三類工程師的控制思維，幫助企業有效控制成本。</p>
+	<div style="padding-left:100px;"><img src="$_url/static/img/about/idea_big.jpg" width="500px" height="200px" align="center" alt="3E理念"/></div>
+	<hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">產品定位</p>
+	<p class="aboutDetail">立足先進製造業，致力於自動化生產設備和自動化測試設備的研發生產，實現機器取代人手、微電腦取代測試儀器和網絡協助管理，推動低成本自動化生產和高速檢測。</p>
+	<div style="padding-left:100px;"><img src="$_url/static/img/about/targetproduct_big.jpg" width="500px" height="200px" align="center" alt="價值觀"/></div>
+	<p class="aboutDetail">電池設備<br />
+	涉及圓柱、聚合物和動力電池三大系列產品的製造設備。<br />
+	測試設備<br />
+	涉及電子裝配製造行業（電腦周邊產品、家電產品和玩具等行業）和電子元器件製造行業（馬達、電池、開關、電位器等行業）的測試設備，涵蓋工程部門測試設備、品質部門測試設備和生產部門測試設備。<br />
+	產線看板<br />
+	建立網絡平台系統，通過數據採集器，自動收集生產線的準確數據（如：設備運行狀況、壞機率、生產數量和平衡率等），通過網絡反映在現場（電子看板或者電腦上），通過網絡知會相關責任人，處理狀況通過網絡隨時知會相關管理者，方便管理者進行有效指揮和監督。<br />
+	非標設備<br />
+	涉及電子裝配製造行業和電子元器件製造行業（非電池行業）的製造設備，專為客戶授權研發的非標設備，以客戶的需求為首任，持續創新研發。<br />
+
+</td>
+</tr></table></td>
+</tr></table>
+</div>

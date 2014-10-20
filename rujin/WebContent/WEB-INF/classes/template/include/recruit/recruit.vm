@@ -1,0 +1,2 @@
+﻿#if($id=="1" || $id=="")#parse("include/recruit/recruitcommon1.vm")#end
+#if($id=="2")#parse("include/recruit/recruitcommon2.vm")#end

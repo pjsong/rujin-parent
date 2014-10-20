@@ -1,0 +1,86 @@
+﻿<style type="text/css">
+.jdd {
+    float: right;
+    margin-bottom: 5px;
+    width: 100%;
+	font-size: 12px;
+	text-align: left;
+/*	color: #565555;*/
+}
+.jdd ul li span {
+/*    display: block;*/
+    float: left;
+    padding-left: 15px;
+    width: 120px;
+}
+.jdd ul li {
+    float: left;
+/*    
+	border-bottom: 1px solid #EEEEEE;
+    font-weight: bold;
+*/
+    line-height: 26px;
+    padding: 2px 0px;
+    width: 100%;
+}
+.jdd ul li div {
+    float: left;
+    width: 540px;
+}
+.zhaopin{
+font-weight:bold;
+font-family:"Microsoft YaHei",微软雅黑,arial;
+height:24px;
+font-size:14px;
+padding-top:5px;
+}
+.aboutHeader{
+	color: #B60005;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 12px;
+    padding-top: 10px;
+}
+.aboutDetail {
+    line-height: 26px;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+</style>
+<link href="/static/css/body/nav.css" type="text/css" rel="stylesheet">
+<table width="100%" border="0">
+<tr><td valign="top" width="320px">
+	<table class="nav" border="0" width="150px" align="right">
+		<tr><td align="center"><a href="$_url/about/recruit_big.jhtml?id=1" style = #if($id=='1')color:#00ffff;#else color:#ffff00;#end">電氣自動化工程師</a></td></tr>
+		<tr><td align="center"><a href="$_url/about/recruit_big.jhtml?id=2" style = #if($id=='2')color:#00ffff;#else color:#ffff00;#end">結構設計工程師</a></td></tr>
+	</table></td>
+	<td valign="top">
+			<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" valign="top">## style="padding-left:20px;padding-top:-15px;"
+            <tbody>
+            <tr>
+              <td valign="top" height="600" align="left" style="font-size:12px;" colspan="2">
+				<p class="aboutHeader">職位名稱：結構設計工程師</p>
+				<table width="100%" cellspacing="2" cellpadding="3" bordercolor="#ffffff" border="0" align="center" style="WIDTH: 100%; BORDER-COLLAPSE: collapse; TEXT-ALIGN: center">
+				<tbody>
+				<tr>
+				<td><div class="jdd">
+				<ul>
+					<li><span>所屬單位：</span><div>研發部</div></li>
+					<li><span>所屬職位類別：</span><div>研發技術類</div></li>
+					<li><span>工作地點：</span><div>東莞市</div></li>
+					<li><span>需求人數：</span><div>2人</div></li>
+					<li><span>最低工作年限：</span><div>5年</div></li>
+					<li><span>最低學歷：</span><div>本科</div></li>
+					<li><span>發布有效日期：</span><div>2012-1-6 至 2012-07-6</div></li>
+					<li><span>職位薪酬：</span><div>面議</div></li>
+					<li><span>職位描述：</span><div><p style="line-height:10px">&nbsp;</p>1、本科及以上學歷，機械工程類專業；<br>
+							2、5年以上機械設計工作經驗，動手能力強，具有非標設備電氣設計，有製造電池設備方面經驗優先；<br>
+							3、熟練使用Pro-E、UG或Solidworks,AuoCAD等軟件； <br>
+							4、良好的英文水平，團隊協作能力，良好的表達及溝通能力；<br>
+					</li></ul>
+				</div></td></tr></tbody></table>
+             </td>
+              </tr>
+          </tbody></table>
+

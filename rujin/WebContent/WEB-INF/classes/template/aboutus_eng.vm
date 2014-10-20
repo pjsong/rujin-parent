@@ -1,0 +1,9 @@
+#parse("include/header_eng.vm")
+<div style="background:url('/static/img/body/background.jpg') repeat-x scroll top center; #if($!id=="" || $!id=="1")height:800px; #else height:1080px #end">
+#parse("include/breadcrum_eng.vm")
+#if($!id=="" || $!id=="1")#parse("include/aboutus/1_eng.vm")#end
+#if($!id=="2")#parse("include/aboutus/2_eng.vm")#end
+#if($!id=="3")#parse("include/aboutus/3_eng.vm")#end
+#if($!id=="4")#parse("include/aboutus/4_eng.vm")#end
+</div>
+#parse("include/footer_eng.vm")

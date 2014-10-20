@@ -1,0 +1,162 @@
+<link href="static/css/registeryes.css" type="text/css" rel="stylesheet">
+<script type="text/javacript" src="static/js/register.js"></script>
+			#parse("include/breadcrum.vm")
+			<table align="center" width="800" cellspacing="0" cellpadding="0" border="0" style="border: 0px solid rgb(199, 214, 226); margin-top: 10px;">
+                <tr>
+                  <td valign="top" style="padding: 10px;"><p></p><table height="149" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tbody><tr>
+        <td style="color: rgb(51, 51, 51);" class="u26"><div>
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tbody><tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td><table width="100%" cellspacing="1" cellpadding="3" border="0" align="center" bordercolordark="#cccccc" bordercolorlight="#ffffff">
+                        <form name="form1" action="/reg.jhtml?act=regact" method="post">
+                          <tbody><tr align="center">
+                            <td height="40" bgcolor="#ffffff" colspan="2" style="font-size:18px;"><strong>新用户注册<br /><br /></strong></td>
+                          </tr>
+                          <tr>
+                            <td height="25" width="45%" bgcolor="#ffffff" align="right"><strong>登陆名：</strong><br>最少3个字母，不能超过14个字符（7个汉字）
+</td>
+                            <td width="75%" bgcolor="#ffffff"><input type="text" class="style" value="$!userSignUpDTO.loginName" id="loginName" name="loginName" style="width: 280px;">
+                                <font color="#ff0000">* </font>#if($error.loginNameError)<br /> <font color="red"><b> !!! $error.loginNameError </b></font>#end
+								#if($error.loginNameExistsError)<br /> <font color="red"><b> !!! $error.loginNameExistsError </b></font>#end</td>
+                          </tr>
+                          
+                          <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>密码(至少6位)：</strong><br>
+请输入密码，区分大小写。 不要使用类似 '*'、' '的特殊字符
+</td>
+                            <td bgcolor="#ffffff"><input type="password" class="style" value="$!userSignUpDTO.password" id="password" name="password" style="width: 280px;">
+                                <font color="#ff0000">* </font>#if($error.passwordError)<br /> <font color="red"><b> !!! $error.passwordError </b></font>#end
+								#if($error.passwordLenthError)<br /> <font color="red"><b> !!! $error.passwordLenthError </b></font>#end
+								</td>
+                          </tr>
+                          <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>确认密码(至少6位)：</strong><br>
+请再输一遍确认</td>
+                            <td bgcolor="#ffffff"><input type="password" class="style" id="passwordV" name="passwordV" style="width: 280px;">
+                                <font color="#ff0000">*</font>
+								#if($error.passwordVError)<br /> <font color="red"><b> !!! $error.passwordVError </b></font>#end
+								#if($error.passwordAndVError)<br /> <font color="red"><b> !!! $error.passwordAndVError </b></font>#end
+								</td>
+                          </tr>
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>密码问题：</strong><br>
+忘记密码的提示问题
+</td>
+                            <td bgcolor="#ffffff"><select class="style" id="question" name="question" style="width: 280px;">
+								<option  style="width:280px;" value="-1" #if($!userSignUpDTO.question==-1) selected #end>选择一个熟悉的问题</option>  
+								<option  style="width:280px;" value="birthdayOfMom"  #if($!userSignUpDTO.question=='birthdayOfMom') selected #end>妈妈的生日是哪一天(格式"yyyy-mm-dd")</option>
+								<option  style="width:280px;" value="nameOfDad" #if($!userSignUpDTO.question=='nameOfDad') selected #end>爸爸的姓名是什么</option>
+								<option  style="width:280px;" value="last6numberOfIDCard" #if($!userSignUpDTO.question=='last6numberOfIDCard') selected #end>身份证号码的最后6位数是什么</option>  		
+								<option  style="width:280px;" value="numberOfBrotherSister" #if($!userSignUpDTO.question=='numberOfBrotherSister') selected #end>有几个兄弟姐妹</option>
+								</select> <font color="#ff0000">*</font>								
+							#if($error.questionError)<br /> <font color="red"><b> !!! $error.questionError </b></font>#end</td>
+                          </tr>
+                          <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>问题答案：</strong><br>
+忘记密码的提示问题答案，用于取回密码
+</td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" value="$!userSignUpDTO.answer" id="answer" name="answer" style="width: 280px;">
+                                <font color="#ff0000">*</font>
+								#if($error.answerError)<br /> <font color="red"><b> !!! $error.answerError </b></font>#end
+								#if($error.birthdayOfMom)<br /> <font color="red"><b> !!! $error.birthdayOfMom </b></font>#end
+								</td>
+                          </tr>
+                          <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>性别：</strong><br>
+请选择您的性别
+</td>
+                            <td bgcolor="#ffffff" class="unnamed1"><input type="radio" checked="" value="1" name="sex" id="sex" value="$!userSignUpDTO.sex" >
+              男
+                <input type="radio" value="0" name="sex">
+              女</td>
+                          </tr>
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>Email地址：</strong><br>
+请输入有效的邮件地址
+</td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="email" name="email" value="$!userSignUpDTO.email"  ="width: 280px;">
+                                <font color="#ff0000">*</font>
+								#if($error.emailEmptyError)<br /> <font color="red"><b> !!! $error.emailEmptyError </b></font>#end
+								#if($error.emailRegExp)<br /> <font color="red"><b> !!! $error.emailRegExp </b></font>#end
+								</td>
+                          </tr>
+
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>公司网址：</strong></td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="companywebsite" name="companywebsite" value="#if($userSignUpDTO.companywebsite)$!userSignUpDTO.companywebsite #else http://#end"  style="width: 280px;">
+							</td>
+                          </tr>
+                          
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>公司名称：</strong><br>
+您的公司名称
+</td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="companyname" name="companyname" value="$!userSignUpDTO.companyname"  style="width: 280px;">
+							</td>
+                          </tr>
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>地址：</strong><br>
+您的公司地址或联系地址
+
+</td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="companyaddress" name="companyaddress" value="$!userSignUpDTO.companyaddress"  style="width: 280px;">
+                                <font color="#ff0000">*</font>
+								#if($error.companyAddressError)<br /> <font color="red"><b> !!! $error.companyAddressError </b></font>#end
+								</td>
+                          </tr>
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>真实姓名：</strong>
+</td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="name" name="name" value="$!userSignUpDTO.name"  style="width: 280px;">
+							</td>
+                          </tr>
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>QQ号码：</strong></td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="qqNumber" name="qqNumber" value="$!userSignUpDTO.qqNumber"  style="width: 280px;">
+							</td>
+                          </tr>
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>msn号码：</strong></td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="msnNumber" name="msnNumber" value="$!userSignUpDTO.msnNumber"  style="width: 280px;">
+							</td>
+                          </tr>
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>联系电话(手机)：</strong></td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="mobile" name="mobile" value="$!userSignUpDTO.mobile"  style="width: 280px;">
+							<font color="#ff0000">*</font>#if($error.mobileError)<br /> <font color="red"><b> !!! $error.mobileError </b></font>#end</td>
+                          </tr>
+						   <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>传 真：</strong></td>
+                            <td bgcolor="#ffffff"><input type="text" class="style" id="phoneFax" name="phoneFax" value="$!userSignUpDTO.phoneFax"  style="width: 280px;">
+							</td>
+                          </tr>
+						  <tr>
+                            <td height="25" bgcolor="#ffffff" align="right"><strong>获取公司最新资讯：</strong><br>
+选中后系统将自动发送最新资讯到您的邮箱</td>
+                            <td bgcolor="#ffffff"><input type=checkbox id="newsletter" name="newsletter" checked="#if($userSignUpDTO.newsletter) $userSignUpDTO.newsletter #end">##checked
+							</td>
+                          </tr>
+                                          
+
+                          <tr>
+                            <td height="25" bgcolor="#ffffff" align="center" colspan="2">
+                              <input type="submit" class="style" value="注册" onclick="javascript:form1.submit();">
+                              <input type="hidden" value="save" id="act" name="act">
+              　
+							  <input type="reset" class="style" value="清除" onclick="javascript:clearRegisterForm()">
+                            </td>
+                          </tr>
+                        
+                    </tbody></form></table>
+              </tr>
+            </tbody></table>
+          
+        </div></td>
+      </tr>
+    </tbody></table></td>
+                </tr>
+              </tbody></table>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+form,ul,li,dl,dt,dd{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+a{
+	text-decoration:none;
+	font-size:12px;
+}
+
+img{
+	border:none;
+}
+
+#menu{
+	text-align:center;
+	font-family:"Microsoft YaHei",微软雅黑,arial;
+	background-color:#ebebeb;
+	height:28px;
+	width:700px;
+}
+
+#menu a{
+	color:#444444;
+	font-size:15px;
+	font-weight:bold;
+	font-family:"Microsoft YaHei",微软雅黑,arial;
+}
+
+#menu a:hover{
+	background-color:#f8eb12;
+}
+#menu .seperator{
+	font-size:20px;
+}
+.headerinputbox{
+	background-color:#c9c9c9;/*h160,b190*/
+	width:150px;
+}
+.headerlabel{
+	color:#f2eb62;/*h160,b190*/
+	font-size:12px;
+	font-weight:bold;
+	font-family:"Microsoft YaHei",微软雅黑,arial;
+}
+.headerlanguage{
+	margin-bottom:5px;
+}
+.headerlanguage a{
+	color:#b8fefe;/*h160,b190*/
+	font-size:14px;
+	font-weight:bold;
+	font-family:"Microsoft YaHei",微软雅黑,arial;
+}

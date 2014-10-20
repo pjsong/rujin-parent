@@ -1,0 +1,7 @@
+﻿<link href="/static/css/body/nav.css" type="text/css" rel="stylesheet">
+<table width="100%" border="0">
+<tr><td valign="top" width="320px">
+	<table class="nav" border="0" width="160px" align="right">
+		<tr><td align="center"><a href="$_url/about/customerservice_big.jhtml?id=1" style = #if($id=='1')color:#00ffff;#else color:#ffff00;#end">聯繫我們</a></td></tr>
+		<tr><td align="center"><a href="$_url/about/customerservice_big.jhtml?id=2" style = #if($id=='2')color:#00ffff;#else color:#ffff00;#end">路線地圖</a></td></tr>
+	</table></td>

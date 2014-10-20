@@ -1,0 +1,25 @@
+﻿<style>
+.myButtonLink {
+	display: block;
+	width: 204px;
+	height: 295px;
+	background: url('/static/img/about/patent1_small.jpg') bottom;
+}
+.myButtonLink:hover {
+	background-position: 0 0;
+	width: 493px;
+	height: 715px;
+	background: url('/static/img/about/patent1.jpg') bottom;
+}
+</style>
+#parse("include/aboutus/aboutcommon_eng.vm")
+
+<td align=left>
+<table width="800" border="0" align="center"><tr><td width="30%">
+<a class="myButtonLink" href="#"></a>
+</td></tr>
+</table>
+<br /><br /><br /><br />
+</td>
+</tr></table>
+</div>

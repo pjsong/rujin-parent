@@ -1,0 +1,27 @@
+<style>
+.foot {
+    border-bottom: 0 solid #DCDCDC;
+    border-left: 0 solid #DCDCDC;
+    border-right: 0 solid #DCDCDC;
+    color: #666666;
+    letter-spacing: 0;
+    padding: 0;
+	font-size:12px;
+}
+.trt {
+##    background-color: #FFFFFF;
+    border-color: -moz-use-text-color #DCDCDC;
+    border-style: none solid;
+    border-width: 0;
+    text-align: center;
+    width: 800px;
+}
+</style>
+<table height="93" border="0" align="center" class="trt foot"><tbody><tr><td width="100%"><div align="left"><div align="center">公司地址：廣東省東莞市萬江區上甲社區書院路85號
+  <br>
+  電話：（0769）28639587　傳真： 23151645 E-Mail:support@ruking-cn.com
+  <br>
+  Copyright&copy;2012-2013 東莞如金自動化設備科技有限公司 All Rights Reserved.
+粵ICP备12015454號</div>
+</div></td></tr></tbody></table>
+</body></html>

@@ -1,0 +1,10 @@
+﻿##<table width="800" align="center" border="1">
+####<tr><th>动作</th><th>ID</th><th>类型</th><th>标题</th><th>内容</th></tr>
+###foreach($article in $articles)
+##<tr><td><a href="$_url/listarticles.jhtml?act=del&id=$article.ID">删除</a></td><td>$article.ID</td><td><a href="$_url/editarticle.jhtml?act=edit&id=$article.ID">$article.Type</td><td>$article.Header</td><td>$article.Content</td></tr>
+###end
+##</table>
+
+
+<script language="javascript" src="static/js/editor/editor.nocache.js"></script>
+<div id="editorid"></div>

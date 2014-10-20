@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.ruking-cn.com/index.jhtml</loc>
+</url>
+<url>
+  	<loc>http://www.ruking-cn.com/</loc>
+  	<priority>0.7</priority>
+</url>
+<url>
+  	<loc>http://www.ruking-cn.com/item.jhtml</loc>
+  	<priority>0.7</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/login.jhtml</loc>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/reg.jhtml</loc>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/aboutus.jhtml</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/products.jhtml</loc>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/recruit.jhtml</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/customerservice.jhtml</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/aboutus.jhtml?id=5</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/aboutus.jhtml?id=1</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/aboutus.jhtml?id=2</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/aboutus.jhtml?id=3</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/news.jhtml</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/recruit.jhtml?id=1</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/recruit.jhtml?id=2</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/customerservice.jhtml?id=1</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/customerservice.jhtml?id=2</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/news.jhtml?id=1</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/news.jhtml?id=2</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/news.jhtml?id=3</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/about/news.jhtml?id=4</loc>
+  <priority>0.3</priority>
+</url>
+<url>
+  <loc>http://www.ruking-cn.com/geo.html</loc>
+  <lastmod>2011-12-04T10:10:39+00:00</lastmod>
+  <priority>0.3</priority>
+</url>
+</urlset>

@@ -1,0 +1,33 @@
+﻿#parse("include/aboutus/aboutcommon.vm")
+
+<td align=left>
+<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">公司介绍</p>
+	<p class="aboutDetail">如金秉承“用心智造3E自动化”的企业使命，立足先进制造业，致力于自动化生产设备和自动化测试设备的研发生产，实现机器取代人手，微电脑取代测试仪器和网络协助管理，推动低成本自动化生产、高速检测和协助管理生产。从小处做起，全心全意致力于提升中国制造业核心竞争力！
+	</p><hr / style="color:#ebebeb;height:5px;">
+
+	<p class="aboutHeader">愿景使命</p>
+	<p class="aboutDetail">我们坚持以客户为中心，持续为客户创造长期价值进而成就客户。<br />
+    如金价值观:<br />
+	<div style="text-indent:2em;line-height: 15px;font-size:14px;fed802"><strong>1) </strong>&nbsp;成就客户
+	</div><div style="text-indent:2em;line-height: 15px;font-size:14px;fed802"><strong>2)</strong>&nbsp;&nbsp;集思广益
+	</div><div style="text-indent:2em;line-height: 15px;font-size:14px;fed802"><strong>3)</strong>&nbsp;&nbsp;激情创新
+	</div><div style="text-indent:2em;line-height: 15px;font-size:14px;fed802"><strong>4)</strong>&nbsp;&nbsp;感恩共赢
+	</div>
+	<div style="font-size:15px;text-indent:40em;"><a href="$_url/about/aboutus.jhtml?id=2">[更多...]</a></div>
+</p><hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">产品理念</p>
+	<p class="aboutDetail">自动化设备引入3E理念，凝集了三类工程师的控制思维，帮助企业有效控制成本。</p><p style="text-indent:40em;font-size:15px;"><a href="$_url/about/aboutus.jhtml?id=3">[更多...]</a></p>
+##	<hr / style="color:#ebebeb;height:2px;">
+##	<p class="aboutHeader">如金信条</p>
+##	<p class="aboutDetail">
+##	<div style="text-indent:2em;line-height: 20px;font-size:14px;"><strong>1)</strong>凡事认真；
+##	</div><div style="text-indent:2em;line-height: 20px;font-size:14px;"><strong>2)</strong>品质无小事，是问题总会发生；
+##	</div><div style="text-indent:2em;line-height: 20px;font-size:14px;"><strong>3)</strong>细节决定成败。
+##	</div></p>
+	</td></tr>
+</table>
+<br /><br /><br /><br />
+</td>
+</tr></table>
+</div>

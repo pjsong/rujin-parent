@@ -1,0 +1,32 @@
+
+			#parse("include/breadcrum.vm")
+			<table width="800" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tbody><tr>
+                <td><table width="80%" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tbody><tr>
+                      <td height="40" align="center"><font color="red"><strong>请用户仔细阅读注册条约</strong></font></td>
+                    </tr>
+                </tbody></table></td>
+              </tr>
+              <tr>
+                <td><table width="100%" cellspacing="1" cellpadding="10" border="0" bgcolor="#cccccc" align="center"  style="font-size:12px;">
+                    <tbody><tr bgcolor="#ffffff">
+                      <td height="40"><p> </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 欢迎您注册成为东莞如金电子科技股份有限公司网站用户！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 请仔细阅读下面的协议，只有接受本协议才能继续进行注册，</p>
+<p>1、不承诺责任声明<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本网站所载的材料和信息，包括但不限于文本、图片、数据、观点、建议、网页或链路，虽然如金公司企图在网站上提供准确的材料和信息，但如金公司并不保证这些材料和信息的准确、完整、充分和可靠性，并且明确声明不对这些材料和信息的错误或遗漏承担责任，也不对这些材料和信息作出任何明示或默示的、包括但不限于有关所有权担保、没有侵犯第三方权利、质量和没有计算机病毒的保证。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如金公司可以在没有任何通知或提示的情况下随时对本网站上的内容进行修改，而不需对用户或第三方负责。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如金公司并不就网址上提供的任何产品、服务或信息作出任何声明、保证或认可，所有销售的产品和服务应受本公司的销售合同和条款的约束。</p>
+<p>2、网站内容所有权<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如金公司网站定义的内容包括：文字、软件、声音、相片、录象、图表；在广告中全部内容；电子邮件的全部内容；如金公司为用户提供的商业信息。所有这些内容受版权、商标、标签和其它财产所有权法律的保护。所以，用户只能在如金公司和广告商授权下才能使用这些内容，而不能擅自复制、篡改这些内容、或创造与内容有关的派生产品。<br>&nbsp;<br>3、第三方链接<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本网站可能保留有与第三方网站或网址的链接，访问这些链接将由用户自己作出决定，如金公司并不保证这些链接上所提供的任何信息、数据、观点、图片、陈述或建议的准确性、完整性、充分性和可靠性。如金公司提供这些链接仅仅在于提供方便，并不表示如金对这些信息的认可和推荐，也不是用于宣传或广告目的。 </p>
+<p>4、个人信息的保护<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 尊重用户个人隐私是如金公司网站的基本政策。如金公司承诺在任何时候、任何情况下都不会出售您的个人信息，如金只会在法律允许的范围内使用根据本条款获得的信息。但如金可能会根据法律、政府部门的要求向这些部门提供您某些个人信息；或在如金有理由认为有必要这样做来保护如金、客户或公众时，也可能在尽可能小的范围内公开某些个人信息，在您提供个人信息的时候应该已经预见并同意这种情况的发生。</p>
+<p>5、适用法律和管辖权<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通过访问本网站及使用通过本网站网址提供的设施和（或）服务，即表示您同意该访问及该实施和（或）服务的提供受中华人民共和国法律的约束，且您同意受中华人民共和国法院的管辖。</p>
+<p>6．解释权<br>　　本注册协议的解释权归如金公司网站所有。如果其中有任何条款与国家的有关法律相抵触，则以国家法律的明文规定为准。</p> 
+                        <p>&nbsp;</p></td>
+                    </tr>
+                  </tbody></table>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tbody><tr>
+                        <td height="35" align="center"><input type="submit" onclick="window.location.href='reg.jhtml?act=regyes';" value="同意注册" class="style" name="Submit2">
+                            <input type="submit" onclick="window.location.href='index.jhtml'" value="我不同意" class="style" name="Submit3"></td>
+                      </tr>
+                  </tbody></table></td>
+              </tr>
+            </tbody></table>

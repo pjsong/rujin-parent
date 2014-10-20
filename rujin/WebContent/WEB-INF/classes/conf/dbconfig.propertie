@@ -1,0 +1,7 @@
+host=localhost
+dbname=zkm0m1_db
+dbuser=root
+dbpassword=pjsong
+smtpHost=smtp.ruking-cn.com
+smtpUser=postmaster@ruking-cn.com
+smtpPassword=r9b6f5y4

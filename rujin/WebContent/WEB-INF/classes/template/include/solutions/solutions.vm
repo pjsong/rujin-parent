@@ -1,0 +1,6 @@
+﻿#parse("include/solutions/solutions_header.vm")
+#if($id==""|| $id=="1") #parse("include/solutions/1.vm") #end
+#if($id=="2") #parse("include/solutions/2.vm") #end
+#if($id=="3") #parse("include/solutions/3.vm") #end
+#if($id=="4") #parse("include/solutions/4.vm") #end
+#parse("include/solutions/solutions_footer.vm")

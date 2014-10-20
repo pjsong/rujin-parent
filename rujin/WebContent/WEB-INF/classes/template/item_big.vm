@@ -1,0 +1,7 @@
+#parse("include/header_big.vm")
+<div style="background:url('/static/img/body/background.jpg') repeat-x scroll top center; height:600px;">
+#parse("include/breadcrum_big.vm")
+#parse("include/item_big.vm")
+</div>
+#parse("include/footer_big.vm")
+

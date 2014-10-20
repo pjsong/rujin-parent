@@ -1,0 +1,1 @@
+﻿#parse("include/header.vm")<div style="background:url('/static/img/body/background.jpg') repeat-x scroll bottom center;">#parse("include/breadcrum.vm")#parse("include/registerDone.vm")</div>#parse("include/footer.vm")

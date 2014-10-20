@@ -1,0 +1,6 @@
+#parse("include/header.vm")
+#parse("include/rotationImg.vm")
+<div style="background:url('/static/img/body/background.jpg') repeat-x scroll bottom center;">
+#parse("include/indexBody.vm")
+</div>
+#parse("include/footer.vm")

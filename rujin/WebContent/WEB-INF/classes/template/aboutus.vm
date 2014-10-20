@@ -1,0 +1,9 @@
+#parse("include/header.vm")
+<div style="background:url('/static/img/body/background.jpg') repeat-x fixed top center; #if($!id=="" || $!id=="1")height:800px; #else height:1080px #end">
+#parse("include/breadcrum.vm")
+#if($!id=="" || $!id=="1")#parse("include/aboutus/1.vm")#end
+#if($!id=="2")#parse("include/aboutus/2.vm")#end
+#if($!id=="3")#parse("include/aboutus/3.vm")#end
+#if($!id=="4")#parse("include/aboutus/4.vm")#end
+</div>
+#parse("include/footer.vm")

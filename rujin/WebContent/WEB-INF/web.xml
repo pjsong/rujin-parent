@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+  
+  	<servlet>
+		<servlet-name>dispatcher</servlet-name>
+		<servlet-class>
+		ruking.servlet.TheDispatcherServlet
+		<!-- 	org.springframework.web.servlet.DispatcherServlet -->
+        </servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dispatcher</servlet-name>
+		<url-pattern>*.jhtml</url-pattern>
+	</servlet-mapping>
+	
+  <servlet>
+  	<servlet-name>getDTOService</servlet-name>
+  	<servlet-class>ruking.server.GetDTOServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>getDTOService</servlet-name>
+  	<url-pattern>/static/js/cat/getDTOService</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>getDTOService</servlet-name>
+  	<url-pattern>/static/js/category_big/getDTOService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>getDTOService</servlet-name>
+  	<url-pattern>/static/js/category_eng/getDTOService</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>getCategoryService</servlet-name>
+  	<servlet-class>ruking.server.GetCategoryServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>getCategoryService</servlet-name>
+  	<url-pattern>/static/js/cat/getCategoryService</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>getCategoryService</servlet-name>
+  	<url-pattern>/static/js/category_big/getCategoryService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>getCategoryService</servlet-name>
+  	<url-pattern>/static/js/category_eng/getCategoryService</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>getDetailService</servlet-name>
+  	<servlet-class>ruking.server.GetDetailServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>getDetailService</servlet-name>
+  	<url-pattern>/static/js/cat/getDetailService</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>getDetailService</servlet-name>
+  	<url-pattern>/static/js/category_big/getDetailService</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>getDetailService</servlet-name>
+  	<url-pattern>/static/js/category_eng/getDetailService</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>getArticleService</servlet-name>
+  	<servlet-class>ruking.server.GetArticleServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>getArticleService</servlet-name>
+  	<url-pattern>/static/js/editor/getArticleService</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>/index.html</welcome-file>
+  </welcome-file-list>
+</web-app>

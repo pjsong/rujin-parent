@@ -1,0 +1,30 @@
+﻿#parse("include/aboutus/aboutcommon_big.vm")
+
+<td align=left>
+<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">如金願景</p>
+	<p class="aboutDetail">從小處做起，全心全意致力於提升中國製造業核心競爭力！</p>
+	<hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">如金使命</p>
+	<p class="aboutDetail">用心智造3E自動化，推動低成本自動化生產、高速檢測和協助指揮生產。</p>
+	<hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">如金價值觀</p>
+	<p class="aboutDetail">公司核心價值觀是扎根於我們內心深處的核心信念，是公司的內在動力，更是我們面向未來的共同承諾。由此持續不斷地為客戶創造價值，進而形成感恩共贏文化。</p>
+	<div style="padding-left:100px;"><img src="$_url/static/img/about/value_big.jpg" width="400px" height="266px" align="center" alt="价值观"/></div>
+	<p class="aboutDetail">成就客戶<br />
+	一切為了客戶，客戶需求是如金公司發展的原動力。我們堅持以客戶為中心，快速響應客戶需求，持續為客戶創造長期價值進而成就客戶。為客戶提供有效服務，是我們工作的方向和價值評價的標尺，成就客戶就是成就我們自己。
+	</p>
+	<p class="aboutDetail">集思廣益<br />
+	象風暴一樣廣泛採集客戶的意見，團隊成員的靈感、思維和想法統統收集，然後從中尋找先進的技術、產品和解決方案。
+	</p>
+	<p class="aboutDetail">激情創新<br />
+	創造企業氛圍，形成激情團隊，開放進取，達至鍥而不舍的創新追求！
+	</p>
+	<p class="aboutDetail">感恩共贏<br />
+	如金是所有利益相關者的如金，主要包括員工、用戶、股東。只有員工、用戶和股東持續共贏，如金才有可能實現永續經營。感恩共贏，如金鼓勵每個員工都應具有企業家精神，從被經營變為自主經營，成為自己的CEO，實現“企業價值和自我價值的雙豐收”。
+	</p>	
+	<br /><br /><br /><br /><br /><br />
+</td>
+</tr></table></td>
+</tr></table>
+</div>

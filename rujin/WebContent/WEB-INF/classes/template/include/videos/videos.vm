@@ -1,0 +1,121 @@
+﻿<style>
+.pageLabel {
+    border-bottom-width: 0;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 0;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 0;
+	}
+.gwt-Anchor{
+	font-size:14px;
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    border-bottom-color: #AAAAAA;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #AAAAAA;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #AAAAAA;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: #AAAAAA;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #0033B3;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 4px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 3px;
+	border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #AAAAAA;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #AAAAAA;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: #AAAAAA;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #0033B3;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 4px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 3px;
+}
+	</style>
+	
+
+
+<table border="0" align=center width="1100px">
+#set($count=0)
+#foreach($v in $videolist)
+#if($count%3==0)
+<tr align="center" valign="top" style="height:350px;">
+<td><table><tr><td>
+<iframe scrolling="no" width="320" height="275" frameborder="0" marginheight="0" marginwidth="0" src="$_url/static/video/$!{v.id}.html"></iframe> 
+</td></tr><tr><td>${v.title}</td></tr></table></td>
+#else
+<td><table><tr><td>
+<iframe scrolling="no" width="320" height="275" frameborder="0" marginheight="0" marginwidth="0" src="$_url/static/video/$!{v.id}.html"></iframe> 
+</td></tr><tr><td>${v.title}</td></tr></table></td>
+#end
+#set($count=$count+1)
+#if($count%3==0)
+</tr>
+#end
+#end
+#set($count=0)
+</table>
+
+
+<table align=center cellspacing="0" cellpadding="0" class="pageAnchor" border="0" >
+<tbody><tr align=center>
+#if($lastPage)
+<td width="120" align="left" style="vertical-align: top;">
+<a class="gwt-Anchor" href="$_url/videos.jhtml?pageid=$lastPage">上一页 &gt;&gt;</a></td>
+#end
+#foreach ($i in [1..$totalPage])
+<td td width="20" align="left" style="vertical-align: top;">
+<a class="gwt-Anchor" href="$_url/videos.jhtml?pageid=$i">$!i</a></td>
+#end
+#if($nextPage)
+<td td width="120" align="left" style="vertical-align: top;">
+<a class="gwt-Anchor" href="$_url/videos.jhtml?pageid=$!nextPage">下一页 &gt;&gt;</a></td>
+#end</tr>
+</tbody></table>
