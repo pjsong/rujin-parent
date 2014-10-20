@@ -1,0 +1,9 @@
+﻿<table border="1"><tr>
+<th>ID</th><th>登录名</th><th>密码</th><th>密码问题</th><th>问题答案</th><th>注册邮箱</th><th>性别</th><th>公司网址</th><th>公司名称</th><th>地址</th><th>姓名</th><th>电话/传真</th><th>手机</th><th>QQ</th><th>MSN</th><th>是否接受公司资讯</th><th>权限</th>
+</tr>
+#foreach($user in $users)
+<tr>
+<td>$user.ID</td><td><a href="$_url/edituser.jhtml?id=$user.ID">$user.LoginName</a></td><td>$user.Password</td><td>$user.Question</td><td>$user.Answer</td><td>$user.Email</td><td>$user.Sex</td><td>$!user.CompanyWebSite</td><td>$!user.CompanyName</td><td>$!user.CompanyAddress</td><td>$!user.RealName</td><td>$!user.PhoneFax</td><td>$!user.Mobile</td><td>$!user.QQNumber</td><td>$!user.MsnNumber</td><td>$!user.NewsLetter</td><td>$!user.AuthorityID</td>
+</tr>
+#end
+</table>

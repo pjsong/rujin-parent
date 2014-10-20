@@ -1,0 +1,79 @@
+<project name="Ru-King" default="build" basedir=".">
+
+	 <target name="deploy" description="copy file to server">
+	 	<scp file="dist/template.zip" todir="demo:ChinacaT@10.40.8.54:/home/demo/demo1-tomcat-6.0.10/bin" trust="true"/>	 	
+	 	<scp file="dist/ROOT.war" todir="demo:ChinacaT@10.40.8.54:/home/demo/demo1-tomcat-6.0.10" trust="true"/>	 	
+	 </target>
+	
+	<target name="init-debug" unless="release">
+		<property name="build.debug" value="true"/>
+	    	<property name="build.debuglevel" value="lines,vars,source"/>
+	</target>
+	
+	<target name="init-release" if="release">
+		<property name="build.debug" value="false"/>
+	    	<property name="build.debuglevel" value=""/>
+	</target>
+
+	<target name="prepare" depends="init-debug, init-release">
+		<delete dir="build"/>		
+		<mkdir dir="build"/>
+		<delete dir="dist"/>		
+		<mkdir dir="dist"/>		
+	</target>
+
+	<path id="class.path">
+		<fileset dir="war/WEB-INF/lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+	<target name="build" depends="prepare">
+		<mkdir dir="WebRoot/WEB-INF/classes/" />
+
+		<javac srcdir="src/"
+				destdir="WebRoot/WEB-INF/classes"
+				includeantruntime="false"
+				debug="${build.debug}" debuglevel="${build.debuglevel}"
+				deprecation="on"><classpath refid="class.path" />
+		</javac>
+		
+		<copy todir="build/">
+			<fileset dir="WebRoot/" excludes="**/.svn/" />
+		</copy>
+
+		<!-- build the distribution files -->
+		<mkdir dir="dist/" />
+		
+		<jar jarfile="dist/template.zip" includes="template/**" excludes="**/.svn/" basedir="." />
+		<jar jarfile="dist/ROOT.war" basedir="build" />
+		<!--
+		<jar jarfile="dist/static.zip" includes="static/**" basedir="build" />
+		<copy todir="dist/"><fileset dir="sql" includes="database.sql" /></copy>
+		-->
+		<copy todir="dist/"><fileset dir="." includes="*.prp, LinkRedirect.csv" /></copy>
+		<copy todir="dist/"><fileset dir="static" /></copy>					
+
+	</target>
+
+	<target name="runtests" depends="build">
+		<junit printsummary="on" fork="false" haltonfailure="false">
+			<classpath>
+				<path refid="class.path" />
+				<path location="WebRoot/WEB-INF/classes" />
+			</classpath>
+		    <formatter type="plain"/>
+		    <batchtest fork="false" todir="WebRoot/WEB-INF/classes">
+		        <fileset dir="test/">
+		            <include name="**/Test*.java"/>
+		            <exclude name="**/AllTests.java"/>
+		        </fileset>
+		    </batchtest>
+        </junit>
+	</target>
+
+	<target name="clean">
+		<delete dir="build"/>
+		<delete dir="dist"/>
+	</target>
+</project>

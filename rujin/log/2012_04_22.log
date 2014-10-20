@@ -1,0 +1,239 @@
+[22/四月/2012 14:20:03] ERROR:ruking.servlet.TheDispatcherServlet Unable to find resource 'include/videos/videos.vm'
+[22/四月/2012 14:20:45] ERROR:ruking.servlet.TheDispatcherServlet Unable to find resource 'include/videos/videos.vm'
+[22/四月/2012 14:33:01] ERROR:ruking.servlet.TheDispatcherServlet Unable to find resource '/static/video/1.html'
+[22/四月/2012 14:33:28] ERROR:ruking.servlet.TheDispatcherServlet Unable to find resource '/static/video/1.vm'
+[22/四月/2012 14:34:15] ERROR:ruking.servlet.TheDispatcherServlet Unable to find resource 'video/1.vm'
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT * FROM category order by DisplayOrder asc
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT * FROM product
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='电池设备' order by DisplayOrder asc
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '5' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='测试设备' order by DisplayOrder asc
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '2' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '3' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '4' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:28] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '6' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT * FROM category order by DisplayOrder asc
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT * FROM product
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='电池设备' order by DisplayOrder asc
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='测试设备' order by DisplayOrder asc
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '5' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '2' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '3' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '4' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 16:30:39] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '6' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT * FROM category order by DisplayOrder asc
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='电池设备' order by DisplayOrder asc
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='测试设备' order by DisplayOrder asc
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT * FROM product
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '5' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '2' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '3' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '4' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:03] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '6' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT * FROM category order by DisplayOrder asc
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT * FROM product
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '5' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '2' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '3' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '4' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '6' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='电池设备' order by DisplayOrder asc
+[22/四月/2012 17:01:20] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='测试设备' order by DisplayOrder asc
+[22/四月/2012 17:27:11] INFO:ruking.db.QueryRunner SELECT * FROM category order by DisplayOrder asc
+[22/四月/2012 17:27:11] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='电池设备' order by DisplayOrder asc
+[22/四月/2012 17:27:11] INFO:ruking.db.QueryRunner SELECT SubCategory,ID as CatID FROM category where Category='测试设备' order by DisplayOrder asc
+[22/四月/2012 17:27:12] INFO:ruking.db.QueryRunner SELECT * FROM product
+[22/四月/2012 17:27:12] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '5' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:27:12] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '2' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:27:12] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '3' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:27:12] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '4' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:27:12] INFO:ruking.db.QueryRunner SELECT * FROM attributes WHERE productID = '6' and AttrName='型号' order by ProductID,DisplayOrder
+[22/四月/2012 17:27:13] ERROR:ruking.servlet.TheDispatcherServlet Encountered "<EOF>" at include/videos/videos.vm[line 67, column 16]
+Was expecting one of:
+    "(" ...
+    <RPAREN> ...
+    <ESCAPE_DIRECTIVE> ...
+    <SET_DIRECTIVE> ...
+    "##" ...
+    "\\\\" ...
+    "\\" ...
+    <TEXT> ...
+    "*#" ...
+    "*#" ...
+    <STRING_LITERAL> ...
+    <END> ...
+    <IF_DIRECTIVE> ...
+    <ELSEIF_DIRECTIVE> ...
+    <ELSE_DIRECTIVE> ...
+    <STOP_DIRECTIVE> ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <WORD> ...
+    <BRACKETED_WORD> ...
+    <IDENTIFIER> ...
+    <DOT> ...
+    "{" ...
+    "}" ...
+    
+[22/四月/2012 18:09:28] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:09:28] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:09:28] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:09:28] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:09:28] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:09:28] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:11:30] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:13:19] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:14:09] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:14:09] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:14:10] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:14:10] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:14:10] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:14:11] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:14:43] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '7'
+[22/四月/2012 18:14:55] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:14:55] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:14:55] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:14:55] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:14:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:14:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:15:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:15:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:15:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:15:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:15:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:15:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:16:59] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:16:59] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:16:59] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:16:59] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:16:59] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:16:59] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:17:38] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:17:38] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:17:38] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:17:38] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:17:38] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:17:38] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:17:42] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:17:42] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:17:42] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:17:42] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:17:42] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:17:42] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:19:09] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:19:09] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:19:09] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:19:09] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:19:09] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:19:09] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:19:48] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:19:48] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:19:48] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:19:48] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:19:48] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:19:48] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:20:30] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:20:30] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:20:30] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:20:30] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:20:30] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:20:30] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:20:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:20:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:20:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:20:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:20:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:20:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:21:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:21:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:21:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:21:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:21:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:21:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:21:43] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:21:43] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:21:43] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:21:43] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:21:43] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:21:43] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:22:00] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:22:00] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:22:00] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:22:00] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:22:00] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:22:00] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:22:54] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:22:54] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:22:54] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:22:54] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:22:54] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:22:54] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:23:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:23:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:23:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:23:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:23:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:23:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:23:29] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:23:29] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:23:29] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:23:29] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:23:29] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:23:29] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:23:41] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:23:41] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:23:41] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:23:41] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:23:41] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:23:41] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:24:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:24:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:24:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:24:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:24:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:24:14] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:25:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:25:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:25:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:25:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:25:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:25:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:26:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:26:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:26:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:26:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:26:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:26:26] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:26:40] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:26:40] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:26:40] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:26:40] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:26:40] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:26:40] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:40:28] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '7'
+[22/四月/2012 18:40:35] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 18:40:35] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '2'
+[22/四月/2012 18:40:35] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '3'
+[22/四月/2012 18:40:35] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '4'
+[22/四月/2012 18:40:35] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '5'
+[22/四月/2012 18:40:35] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '6'
+[22/四月/2012 18:41:11] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '1'
+[22/四月/2012 18:41:11] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '2'
+[22/四月/2012 18:41:11] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '3'
+[22/四月/2012 18:41:11] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '4'
+[22/四月/2012 18:41:11] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '5'
+[22/四月/2012 18:41:11] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '6'
+[22/四月/2012 19:27:39] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '1'
+[22/四月/2012 19:27:39] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '2'
+[22/四月/2012 19:27:39] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '3'
+[22/四月/2012 19:27:39] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '4'
+[22/四月/2012 19:27:39] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '5'
+[22/四月/2012 19:27:39] INFO:ruking.db.QueryRunner SELECT * FROM product_big WHERE ID = '6'
+[22/四月/2012 19:37:19] ERROR:ruking.servlet.TheDispatcherServlet null
+[22/四月/2012 19:38:12] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 19:43:28] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 19:43:53] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 19:43:56] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 19:44:43] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 19:57:36] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'
+[22/四月/2012 20:02:16] INFO:ruking.db.QueryRunner SELECT * FROM product WHERE ID = '1'

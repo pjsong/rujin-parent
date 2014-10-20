@@ -1,0 +1,6 @@
+﻿	<link type="text/css" rel="stylesheet" href="static/css/body/category.css">
+	<div name="search" id="search" style="display:none">$!searchResult</div>
+	<table width="850px" align=center border=0><tr><td valign="top" width="100px"><div id="category"></div></td>
+		<td style="width:750px;"><div id="productlist" style="padding-left:50px;padding-right:30px;width:750px;"></div></td></tr>
+	</table>
+	#if(!$searchResult)<p id="noResultFound" align=center style="color:#ff0000;font-size:14px">$!noResultFound </p>#end    <script type="text/javascript" language="javascript" src="static/js/category_big/category_big.nocache.js"></script>

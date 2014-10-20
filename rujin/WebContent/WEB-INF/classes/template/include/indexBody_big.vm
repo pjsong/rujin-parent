@@ -1,0 +1,20 @@
+﻿<table width="1000px" align="center" border="0" cellpadding=5 style="margin-top: 10px;">
+<tr valign="top"><td align="left" width="40%" style="font-size:12px;color:#606060;padding-left:30px;padding-right:30px;">
+<div><a href="$_url/about/aboutus.jhtml"><img src="/static/img/footer/aboutus_big.gif"></a></div><br />
+<div style="line-height:20px;">如金科技秉承“用心智造3E自動化”的企業使命，立足先進製造業，致力於自動化設備的研發生產，實現機器取代人手，電腦取代儀器和網絡取代紙筆，推動低成本生產和高速檢測，協助企業成功轉型，提升中國製造業核心競爭力！</td>
+</td>
+<td align="left" width="20%" style="font-size:12px;color:#606060;padding-left:20px;padding-right:20px;">
+</td>
+</td>
+<td align="left" width="40%" style="font-size:12px;color:#606060;padding-left:30px;padding-right:30px;">
+<div><img src="/static/img/footer/friends_big.gif"></div><br />
+<table width="300px" border="0" Cellpadding="5px"><tr valign="bottom" style="height:55px"><td>
+<a href="http://www.fe123battery.com/"><img src="/static/img/footer/fengJiang.gif"></a></td><td><a href="http://www.delta.com.tw/"><img src="/static/img/footer/delta_logo.gif"></a>
+</td></tr><tr valign="bottom" style="height:55px"><td>
+<a href="http://www.atlbattery.com/"><img src="/static/img/footer/amp.gif"></a>
+</td><td><a href="http://www.jsxmotor.com/"><img src="/static/img/footer/jilaisheng.gif"></a>
+</td></tr>
+<tr><td colspan=2 align="right"><a class="all" href="$_url/about/aboutus.jhtml?id=5">[查看更多内容]</a></td></tr></table>
+</td>
+</tr>
+</table>

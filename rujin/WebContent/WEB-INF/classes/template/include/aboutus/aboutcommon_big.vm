@@ -1,0 +1,24 @@
+﻿<style type="text/css">
+.aboutHeader{
+	color: #B60005;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 12px;
+    padding-top: 10px;
+}
+.aboutDetail {
+    line-height: 26px;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+</style>
+<link href="/static/css/body/nav.css" type="text/css" rel="stylesheet">
+<table width="100%" border="0">
+<tr><td valign="top" width="320px">
+	<table align="right" class="nav" border="0" width="160px">
+		<tr><td align="center"><a href="$_url/about/aboutus_big.jhtml?id=1">公司簡介</a></td></tr>
+		<tr><td align="center"><a href="$_url/about/aboutus_big.jhtml?id=2">願景使命</a></td></tr>
+		<tr><td align="center"><a href="$_url/about/aboutus_big.jhtml?id=3">產品理念</a></td></tr>
+		<tr><td align="center"><a href="$_url/about/aboutus_big.jhtml?id=4">公司榮譽</a></td></tr>
+	</table></td>

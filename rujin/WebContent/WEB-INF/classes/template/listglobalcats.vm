@@ -1,0 +1,4 @@
+﻿#parse("include/header.vm")
+#parse("include/manage/manage.vm")
+#parse("include/manage/listglobalcats.vm")
+#parse("include/footer.vm")

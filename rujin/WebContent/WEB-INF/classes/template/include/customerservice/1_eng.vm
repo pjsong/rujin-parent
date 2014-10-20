@@ -1,0 +1,37 @@
+﻿<style>
+.article{
+    line-height: 25px;
+    text-indent: 2em;
+	font-size:12px;
+	}
+.aboutHeader{
+	color: #B60005;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 12px;
+    padding-top: 10px;
+}
+.aboutDetail {
+    line-height: 26px;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+	</style>
+	<td align=left>
+	<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">Ruking Automated Device Tech. Ltd. Co.</p>
+    <p>Address：ShuYuan Road 85#,WanJiang District,DongGuan City,Guang Dong Province</p>
+    <p>Tel. +86-0769-28639587</p>
+    <p>Fax. +86-769-23151645</p>
+    <p style="font-weight: bold;">Business Division</p>
+    <p>Tel. +86-769-28639587      </p>
+	<p>Mobile：13712349386      </p>
+    <p>Email Box：sales@ruking-cn.com      </p>
+    <p>Support: support@ruking-cn.com</p>
+		</td></tr>
+	</table>
+	
+           </td>
+              </tr>
+          </tbody></table>

@@ -1,0 +1,36 @@
+﻿<style>
+.article{
+    line-height: 25px;
+    text-indent: 2em;
+	font-size:12px;
+	}
+.aboutHeader{
+	color: #B60005;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 12px;
+    padding-top: 10px;
+}
+.aboutDetail {
+    line-height: 26px;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+	</style>
+	<td align=left>
+	<table width="800" border="0" align="center"><tr><td width="100%">
+    <p>地址：廣東省東莞市萬江區上甲社區書院路85號 </p>
+    <p>電話：+86-0769-28639587</p>
+    <p>傳真：+86-769-23151645</p>
+    <p style="font-weight: bold;">業務部</p>
+    <p>電話：+86-769-28639587      </p>
+	<p>手機：13712349386      </p>
+    <p>郵件：sales@ruking-cn.com      </p>
+    <p>技術支援：support@ruking-cn.com</p>
+		</td></tr>
+	</table>
+	
+           </td>
+              </tr>
+          </tbody></table>

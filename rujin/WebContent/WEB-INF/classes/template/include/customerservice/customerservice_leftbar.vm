@@ -1,0 +1,45 @@
+﻿<link href="/static/css/body/nav.css" type="text/css" rel="stylesheet">
+<table width="800px" align="center" border="0" style="margin-top:-10px;"><tr><td align="left" valign="top" width="500px">
+	<table class="nav" border="0">
+		<tr><td><a href="$_url/about/customerservice.jhtml">&nbsp;&nbsp;服务承诺&nbsp;&nbsp;</a></td></tr>
+		<tr><td><a href="$_url/about/promise.jhtml">&nbsp;&nbsp;产品手册&nbsp;&nbsp;</a></td></tr>
+		<tr><td><a href="$_url/about/promise.jhtml">&nbsp;&nbsp;技术支持&nbsp;&nbsp;</a></td></tr>
+		<tr><td><a href="$_url/about/promise.jhtml">&nbsp;&nbsp;问答互动&nbsp;&nbsp;</a></td></tr>
+	</table></td>
+	<td valign="top" width="400px">
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tbody><tr>
+                <td><img height="100" width="600" border="0" src="/static/img/body/customerservice_header.jpg"></td>
+              </tr>
+            </tbody></table>
+			
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border: 1px solid rgb(199, 214, 226); margin-top: 10px;">
+                <tbody><tr>
+                  <td width="86%" class="bodyheader">我们的承诺</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px;" colspan="2">
+                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody><tr>
+                      <td valign="top"><p class="MsoNormal"><b>一、技术承诺</b></p><br />
+					<p class="MsoNormal">1. 我们将定期向客户公布任何有关产品的生产和更新换代信息。</p>
+					<p class="MsoNormal">2. 当产品有重大技术改进时，我们将及时向需方提供信息。当需方要求时，我们将提供改进服务。</p>
+					<p class="MsoNormal">3. 用户在购买公司产品后，若出现质量问题，三个月内我公司予以调换。</p>
+					<p class="MsoNormal">4. 严格按照合同要求交货，保证安装合格率达</span>100％。</p>
+					<p class="MsoNormal">5. 产品的出厂标准严格按照国家有关规定和检定规程执行。</p>
+					<br /><br />
+					<p class="MsoNormal">二、<b>售后服务承诺</b></p><br />
+					<p class="MsoNormal">1. 对于购买公司产品的客户，我公司将提供上门安装调试培训服务，负责产品维护、用户巡访、用户意见收集、用户档案建立，以便更好的为用户服务。</p>
+					<p class="MsoNormal">2. 在产品或项目验收时，根据客户需要，做产品技术性能、操作方法以及使用中应注意的问题及常见故障排除方法的讲解培训。</p>
+					<p class="MsoNormal">3. 承诺设备的制造质量符合相关标准，其质量保证期为12月，在质保期内出现任何制造质量问题，由我公司免费维修，重大质量问题包换。</p>
+					<p class="MsoNormal">4. 负责产品的终身维修服务，超过保修期，则要收取材料成本费用及相应的人工费用。</p>
+					<p class="MsoNormal">5．对于要求到现场培训或维修的，我公司将及时分派技术人员为用户提供服务，各省市办事处的技术人员在接到电话后在24小时内到达现场，在外省服务人员在48小时内到达现场进行服务。如遇到特殊情况不能及时到达，将及时联系用户，求得谅解，共同协商最快解决时间，并在商定的时间内及时到达。</p>
+					<p class="MsoNormal">6. 积极为用户提供产品的各种软件及升级服务。</p>
+					<p class="MsoNormal">7. 设立三级售后服务保障体系：</p>
+					<p class="MsoNormal">　① 科陆公司市场部定期进行客户回访。<br>　② 公司客户服务中心及时为客户提供优质服务，定期回访，征求用户意见。<br>　③ 设立全国统一服务热线 ”800-9990-986”，为用户提供服务受理、产品咨询、业务咨询、查询等服务。</p>
+					</td>
+                    </tr>
+                  </tbody></table></td>
+                </tr>
+              </tbody></table></td>
+</td></tr></table>

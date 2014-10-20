@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+    <bean id="indexController"   class="ruking.controller.IndexController" ></bean>
+    <bean id="regController"   class="ruking.controller.RegController" ></bean>
+    <bean id="logoutController"   class="ruking.controller.LogOutController" ></bean>
+    <bean id="loginController"   class="ruking.controller.LoginController" ></bean>
+    <bean id="aboutController"   class="ruking.controller.AboutController" ></bean>
+	<bean id="videoController"   class="ruking.controller.VideoController" ></bean>    
+	<bean id="productsController"   class="ruking.controller.ProductsController" ></bean>  
+    <bean id="searchController"   class="ruking.controller.SearchController" ></bean>  
+    <bean id="itemController"   class="ruking.controller.ItemController" ></bean>  
+  
+    <bean id="manageController"   class="ruking.controller.manage.ManageController" ></bean>
+    <bean id="listUsersController"   class="ruking.controller.manage.ListUsersController" ></bean>
+    <bean id="listProductsController"   class="ruking.controller.manage.ListProductsController" ></bean>
+    <bean id="listCategoryController"   class="ruking.controller.manage.ListCategoryController" ></bean>
+    <bean id="listAttributesController"   class="ruking.controller.manage.ListAttributesController" ></bean>
+    <!-- bean id="listGlobalCatsController"   class="ruking.controller.manage.ListGlobalCatsController" ></bean> 
+     <bean id="listArticlesController"   class="ruking.controller.manage.ListArticlesController" ></bean> 
+    
+    -->
+    <bean id="editUserController"   class="ruking.controller.manage.EditUserController" ></bean>
+    <bean id="editProductController"   class="ruking.controller.manage.EditProductController" ></bean>
+    <bean id="editCategoryController"   class="ruking.controller.manage.EditCategoryController" ></bean>
+    <bean id="editAttributeController"   class="ruking.controller.manage.EditAttributeController" ></bean>
+    <!--bean id="editGlobalCatController"   class="ruking.controller.manage.EditGlobalCatController" ></bean -->
+    <bean id="indexGenController"   class="ruking.controller.IndexGenController" ></bean>
+
+    <!-- bean id="listArticlesBigController"   class="ruking.controller.big.manage.ListArticlesController" ></bean> 
+     -->
+     <bean id="listProductsBigController"   class="ruking.controller.big.manage.ListProductsController" ></bean>
+    <bean id="listCategoryBigController"   class="ruking.controller.big.manage.ListCategoryController" ></bean>
+    <bean id="listAttributesBigController"   class="ruking.controller.big.manage.ListAttributesController" ></bean>
+    <bean id="editProductBigController"   class="ruking.controller.big.manage.EditProductController" ></bean>
+    <bean id="editCategoryBigController"   class="ruking.controller.big.manage.EditCategoryController" ></bean>
+    <bean id="editAttributeBigController"   class="ruking.controller.big.manage.EditAttributeController" ></bean>
+    <bean id="loginBigController"   class="ruking.controller.big.LoginController" ></bean>
+   
+    <bean id="listProductsEngController"   class="ruking.controller.eng.manage.ListProductsController" ></bean>
+    <bean id="listCategoryEngController"   class="ruking.controller.eng.manage.ListCategoryController" ></bean>
+    <bean id="listAttributesEngController"   class="ruking.controller.eng.manage.ListAttributesController" ></bean>
+    <bean id="editProductEngController"   class="ruking.controller.eng.manage.EditProductController" ></bean>
+    <bean id="editCategoryEngController"   class="ruking.controller.eng.manage.EditCategoryController" ></bean>
+    <bean id="editAttributeEngController"   class="ruking.controller.eng.manage.EditAttributeController" ></bean>
+
+    <bean id="indexEngController"   class="ruking.controller.eng.IndexController" ></bean>
+    <bean id="aboutEngController"   class="ruking.controller.eng.AboutController" ></bean>
+    <bean id="productsEngController"   class="ruking.controller.eng.ProductsController" ></bean>  
+	<bean id="videoEngController"   class="ruking.controller.eng.VideoEngController" ></bean>    
+    <bean id="searchEngController"   class="ruking.controller.eng.SearchController" ></bean>  
+    <bean id="itemEngController"   class="ruking.controller.eng.ItemController" ></bean>  
+    
+    <bean id="indexBigController"   class="ruking.controller.big.IndexController" ></bean>
+    <bean id="regBigController"   class="ruking.controller.big.RegController" ></bean>
+    <bean id="logoutBigController"   class="ruking.controller.big.LogOutController" ></bean>
+    <bean id="aboutBigController"   class="ruking.controller.big.AboutController" ></bean>
+    <bean id="productsBigController"   class="ruking.controller.big.ProductsController" ></bean>  
+	<bean id="videoBigController"   class="ruking.controller.big.VideoBigController" ></bean>    
+    <bean id="searchBigController"   class="ruking.controller.big.SearchController" ></bean>  
+    <bean id="itemBigController"   class="ruking.controller.big.ItemController" ></bean>  
+    
+    
+	<bean id="sessionInterceptor" class="ruking.interceptor.SessionInterceptor"></bean>
+	<bean id="manageInterceptor" class="ruking.interceptor.ManageInterceptor"></bean>
+
+ 	<bean id="simpleUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+   	 <property name="interceptors">
+    	<list>
+          <ref bean="sessionInterceptor"/>
+    	</list>
+	 </property>
+    <property name="alwaysUseFullPath"><value>true</value></property>
+    <property name="mappings">
+        <props>
+        	<prop key="/">indexController</prop>
+            <prop key="/index.jhtml">indexController</prop>
+            <prop key="/products.jhtml">productsController</prop>        
+            <prop key="/videos.jhtml">videoController</prop>              
+            <prop key="/searchproducts.jhtml">searchController</prop>       
+            <prop key="/item.jhtml">itemController</prop>      
+            <prop key="/reg.jhtml">regController</prop>
+            <prop key="/logout.jhtml">logoutController</prop>
+            <prop key="/login.jhtml">loginController</prop>
+            <prop key="/about/*.jhtml">aboutController</prop>
+            
+            <prop key="/index_eng.jhtml">indexEngController</prop>
+            <prop key="/products_eng.jhtml">productsEngController</prop>     
+ 			<prop key="/videos_eng.jhtml">videoEngController</prop>              
+            <prop key="/searchproducts_eng.jhtml">searchEngController</prop>       
+            <prop key="/item_eng.jhtml">itemEngController</prop>      
+            <prop key="/about_eng/*.jhtml">aboutEngController</prop>
+            
+            <prop key="/index_big.jhtml">indexBigController</prop>
+            <prop key="/login_big.jhtml">loginBigController</prop>
+			<prop key="/videos_big.jhtml">videoBigController</prop>              
+            <prop key="/products_big.jhtml">productsBigController</prop>           
+            <prop key="/searchproducts_big.jhtml">searchBigController</prop>       
+
+            <prop key="/item_big.jhtml">itemBigController</prop>      
+            <prop key="/about_big/*.jhtml">aboutBigController</prop>
+        </props>
+    </property>
+    </bean>
+ 	<bean id="manageUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+   	 <property name="interceptors">
+    	<list>
+          <ref bean="sessionInterceptor"/>
+          <ref bean="manageInterceptor"/>
+    	</list>
+	 </property>
+    <property name="alwaysUseFullPath"><value>true</value></property>
+    <property name="mappings">
+        <props>
+            <prop key="/manage.jhtml">manageController</prop>
+            <prop key="/listusers.jhtml">listUsersController</prop>
+            <prop key="/listproducts.jhtml">listProductsController</prop>
+            <prop key="/listcategories.jhtml">listCategoryController</prop>
+            <prop key="/listattributes.jhtml">listAttributesController</prop>
+            <!--  <prop key="/listarticles.jhtml">listArticlesController</prop>
+            <prop key="/editarticle.jhtml">editArticleController</prop>
+            <prop key="/listglobalcats.jhtml">listGlobalCatsController</prop>
+            <prop key="/editglobalcat.jhtml">editGlobalCatController</prop>
+            -->
+            <prop key="/edituser.jhtml">editUserController</prop>
+            <prop key="/editproduct.jhtml">editProductController</prop>
+            <prop key="/editcategory.jhtml">editCategoryController</prop>
+            <prop key="/editattribute.jhtml">editAttributeController</prop>
+            <prop key="/index_generation_command.jhtml">indexGenController</prop>
+            
+            <prop key="/listproducts_big.jhtml">listProductsBigController</prop>
+            <prop key="/listcategories_big.jhtml">listCategoryBigController</prop>
+            <prop key="/listattributes_big.jhtml">listAttributesBigController</prop>
+            <!-- prop key="/listarticles_big.jhtml">listArticlesBigController</prop>
+             -->
+            <prop key="/editproduct_big.jhtml">editProductBigController</prop>
+            <prop key="/editcategory_big.jhtml">editCategoryBigController</prop>
+            <prop key="/editattribute_big.jhtml">editAttributeBigController</prop>
+            
+            <prop key="/listproducts_eng.jhtml">listProductsEngController</prop>
+            <prop key="/listcategories_eng.jhtml">listCategoryEngController</prop>
+            <prop key="/listattributes_eng.jhtml">listAttributesEngController</prop>
+            <prop key="/editproduct_eng.jhtml">editProductEngController</prop>
+            <prop key="/editcategory_eng.jhtml">editCategoryEngController</prop>
+            <prop key="/editattribute_eng.jhtml">editAttributeEngController</prop>
+        </props>
+    </property>
+    </bean>
+</beans>

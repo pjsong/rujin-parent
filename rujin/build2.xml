@@ -1,0 +1,58 @@
+<project name="Ru-King" default="build" basedir=".">
+	
+	<target name="init-debug" unless="release">
+		<property name="build.debug" value="true"/>
+	    	<property name="build.debuglevel" value="lines,vars,source"/>
+	</target>
+	
+	<target name="init-release" if="release">
+		<property name="build.debug" value="false"/>
+	    	<property name="build.debuglevel" value=""/>
+	</target>
+
+	<target name="prepare" depends="init-debug, init-release">
+		<delete dir="webroot/WEB-INF"/>		
+		<mkdir dir="webroot/WEB-INF"/>
+		<delete dir="webroot/lib"/>		
+		<mkdir dir="webroot/lib"/>
+		<delete dir="webroot/static"/>		
+		<mkdir dir="webroot/static"/>		
+	</target>
+
+	<path id="class.path">
+		<fileset dir="war/WEB-INF/lib">
+			<include name="**/*.jar"/>
+		</fileset>
+		<fileset dir="lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+	<target name="build" depends="prepare">
+		<mkdir dir="WebRoot/WEB-INF/classes/" />
+		<!--
+		<javac srcdir="src/"
+				destdir="WebRoot/WEB-INF/classes"
+				includeantruntime="false"
+				debug="${build.debug}" debuglevel="${build.debuglevel}"
+				deprecation="on"><classpath refid="class.path" />
+		</javac>
+		
+
+		<copy todir="WebRoot/WEB-INF/lib">
+			<fileset dir="war/WEB-INF/lib/" excludes="**/.svn/" />
+		</copy>
+		<copy todir="WebRoot/WEB-INF/classes/template">
+			<fileset dir="war/WEB-INF/classes/template" excludes="**/.svn/" />
+		</copy>
+		-->
+		<copy file="war/WEB-INF/web.xml" tofile="WebRoot/WEB-INF/web.xml"/>
+		<copy todir="WebRoot/WEB-INF/classes/">
+			<fileset dir="war/WEB-INF/classes/" excludes="**/.svn/, conf/" />
+		</copy>
+		<copy todir="WebRoot/static/">
+			<fileset dir="war/static/" excludes="**/.svn/" />
+		</copy>
+
+	</target>
+</project>

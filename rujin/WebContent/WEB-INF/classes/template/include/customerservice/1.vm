@@ -1,0 +1,37 @@
+﻿<style>
+.article{
+    line-height: 25px;
+    text-indent: 2em;
+	font-size:12px;
+	}
+.aboutHeader{
+	color: #B60005;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 12px;
+    padding-top: 10px;
+}
+.aboutDetail {
+    line-height: 26px;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+	</style>
+	<td align=left>
+	<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">东莞如金自动化设备科技有限公司</p>
+    <p>地址：广东省东莞市万江区上甲社区书院路85号</p>
+    <p>电话：+86-0769-28639587</p>
+    <p>传真：+86-769-23151645</p>
+    <p style="font-weight: bold;">业务部</p>
+    <p>电话：+86-769-28639587      </p>
+	<p>手机：13712349386      </p>
+    <p>邮件：sales@ruking-cn.com      </p>
+    <p>技术支持：support@ruking-cn.com</p>
+		</td></tr>
+	</table>
+	
+           </td>
+              </tr>
+          </tbody></table>

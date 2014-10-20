@@ -1,0 +1,4 @@
+﻿#parse("include/header_eng.vm")
+#parse("include/manage/manage.vm")
+#parse("include/manage/editattribute_eng.vm")
+#parse("include/footer_eng.vm")

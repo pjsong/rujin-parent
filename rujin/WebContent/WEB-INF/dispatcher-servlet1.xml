@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- DAO layer -->
+
+	<bean id="wishListDAO" class="com.dl.dataaccess.WishListDAO" />
+
+	<!-- BA layer -->
+
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- one of the properties available; the maximum file size in bytes -->
+		<property name="maxUploadSize">
+			<value>-1</value>
+			</property>
+	</bean>
+	
+	<bean id="fileLoadController" class="com.dl.controllers.FileLoadController"></bean>
+	<bean id="aboutController" class="com.dl.controllers.AboutController"></bean>
+	<bean id="articleController" class="com.dl.controllers.ArticleController"></bean>
+
+	<bean id="contactUsController" class="com.dl.controllers.ContactUsController"></bean>
+	<bean id="contactVolumesalesController" class="com.dl.controllers.ContactVolumesalesController"></bean>
+
+	<!-- Login -->	
+	<bean id="loginCustomerController" class="com.dl.controllers.LoginCustomerController"></bean>
+	<bean id="emailSignUpController" class="com.dl.controllers.EmailSignUpController">	</bean>
+	<bean id="couponSignupController" class="com.dl.controllers.EmailSignUpController"> </bean>
+	<!-- Wish List -->
+	<bean id="wishListListsController" class="com.dl.controllers.WishListListsController"></bean>
+	<bean id="wishListController" class="com.dl.controllers.WishListController"></bean>
+	<bean id="wishListItemController" class="com.dl.controllers.WishListItemController"></bean>
+	<bean id="wishListPrintController" class="com.dl.controllers.WishListPrintController"></bean>
+	<bean id="wishListSelectController" class="com.dl.controllers.WishListSelectController"></bean>
+	<bean id="wishListSendToFriendController" class="com.dl.controllers.WishListSendToFriendController"></bean>
+	
+ 	<bean id="checkoutShippingController" class="com.dl.controllers.CheckoutShippingController"></bean>
+	<bean id="checkoutBillingController" class="com.dl.controllers.CheckoutBillingController"></bean>
+
+	<bean id="orderConfirmationController" class="com.dl.controllers.OrderConfirmationController"></bean>
+ 	<bean id="orderCompleteController" class="com.dl.controllers.OrderCompleteController"></bean>
+ 	<bean id="orderPrintController" class="com.dl.controllers.OrderPrintController"></bean>
+ 	<bean id="orderListController" class="com.dl.controllers.OrderListController"></bean>
+ 	<bean id="orderDetailController" class="com.dl.controllers.OrderDetailController"></bean>
+
+	<bean id="forgotPasswordController" class="com.dl.controllers.ForgotPasswordController"></bean>
+
+	<bean id="basketViewController" class="com.dl.controllers.BasketViewController" />
+	
+ 	<bean id="indexController" class="com.dl.controllers.IndexController"></bean>
+	<bean id="categoryController" class="com.dl.controllers.CategoryController"></bean>
+
+ 	<bean id="searchController" class="com.dl.controllers.search.SearchController"></bean>
+	<bean id="doSearchSuggestController" class="com.dl.controllers.search.DoSearchSuggestController"></bean>
+	
+	<bean id="simplePageController" class="com.dl.controllers.SimplePageController" />
+	
+	<bean id="myAccountController" class="com.dl.controllers.MyAccountController"></bean>
+	<bean id="myInfoController" class="com.dl.controllers.MyInfoController"></bean>
+	<bean id="addressBookController" class="com.dl.controllers.AddressBookController"></bean>
+	<bean id="editAddressBookController" class="com.dl.controllers.EditAddressBookController"></bean>
+	<bean id="registrationAccountController" class="com.dl.controllers.RegistrationAccountController"></bean>
+	
+ 	<bean id="zoomWindowController" class="com.dl.controllers.ZoomWindowController"></bean>
+ 
+	<bean id="itemPrintController" class="com.dl.controllers.ItemPrintController"></bean>
+	<bean id="itemController" class="com.dl.controllers.ItemController"></bean>
+	
+	<bean id="accuTrackerController" class="com.dl.controllers.AccuTrackerController"></bean>
+	
+	<bean id="orderModificationController" class="com.dl.controllers.OrderModificationController"></bean>
+	
+	<bean id="customerLookupController" class="com.dl.controllers.CustomerLookupController"></bean>
+
+	<bean id="manufacturersController" class="com.dl.controllers.ManufacturersController"></bean>
+
+	<bean id="logoutCustomerController" class="com.dl.controllers.LogoutCustomerController"></bean>
+	
+    <bean id="reviewProductsController" class="com.dl.controllers.ReviewProductsController"></bean>
+	<bean id="reviewOrderProductsController" class="com.dl.controllers.ReviewOrderProductsController"></bean>
+	<bean id="reviewsController" class="com.dl.controllers.ReviewsController"></bean>
+	
+	<bean id="energySmartController" class="com.dl.controllers.EnergySmartController"></bean>
+	
+	<bean id="salesToolController" class="com.dl.controllers.SalesToolController"></bean>
+	<bean id="salesToolPrintEmailController" class="com.dl.controllers.SalesToolPrintEmailController"></bean>
+
+	<!-- URL and VIEW MAPPINGS -->
+
+	<bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+      <property name="interceptors">
+        <list>
+          <ref bean="sessionInterceptor"/>
+        </list>
+	    </property>
+	    <property name="alwaysUseFullPath"><value>true</value></property> 
+      <property name="mappings">
+			<props>
+				<prop key="/feed/**">fileLoadController</prop>
+				<prop key="/do/dosuggest">doSearchSuggestController</prop>
+				<prop key="/products/**">searchController</prop>
+				<prop key="/search/**">searchController</prop>
+				<prop key="/category/**">categoryController</prop>                            
+				<prop key="/about/contact_us.html">contactUsController</prop>
+				<prop key="/about/volume_discounts.html">contactVolumesalesController</prop>
+				<prop key="/about/**">aboutController</prop>
+				<prop key="/articles/**">articleController</prop>
+				<prop key="/registration_account.jhtml">registrationAccountController</prop>
+				<prop key="/forgot_password.jhtml">forgotPasswordController</prop>
+	     		<prop key="/">indexController</prop>
+	      		<prop key="/index.jhtml">indexController</prop>
+	      		<prop key="/index1.jhtml">indexController</prop>
+				<prop key="/storeitem.jhtml">itemController</prop>
+				<prop key="/storelocator.html">simplePageController</prop>
+				<prop key="/printitem.jhtml">itemPrintController</prop>
+				<prop key="/wishlist_item.jhtml">wishListItemController</prop>
+				<prop key="/printwishlist.jhtml">wishListPrintController</prop>
+				<prop key="/wishlist_select.jhtml">wishListSelectController</prop>
+				<prop key="/wishlist_sendToFriend.jhtml">wishListSendToFriendController</prop>
+				<prop key="/wishlist.jhtml">wishListController</prop>
+				<prop key="/login.jhtml">loginCustomerController</prop>
+				<prop key="/email_signup.jhtml">emailSignUpController</prop> 
+				<prop key="/destinationlighting-coupons.jhtml">couponSignupController</prop> 
+				<prop key="/zoomwindow.jhtml">zoomWindowController</prop>
+				<prop key="/basket.jhtml">basketViewController</prop>
+				<prop key="/logout.jhtml">logoutCustomerController</prop>
+				<prop key="/accutracker.jhtml">accuTrackerController</prop>
+				<prop key="/manufacturers.html">manufacturersController</prop>
+				<prop key="/ordermodification.jhtml">orderModificationController</prop>
+				<prop key="/customerlookup.jhtml">customerLookupController</prop>
+				<prop key="/reviews/reviewproducts.jhtml">reviewProductsController</prop>
+				<prop key="/reviews/review_order_products.jhtml">reviewOrderProductsController</prop>
+				<prop key="/reviews/write_review.jhtml">reviewsController</prop>
+				<prop key="/reviews/write_review_email.jhtml">reviewsController</prop>
+				<prop key="/reviews/resize.jhtml">reviewsController</prop>
+				<prop key="/energysmart.html">energySmartController</prop>
+				<prop key="/tools/salestool">salesToolController</prop>
+				<prop key="/tools/salestool_printemail">salesToolPrintEmailController</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="sessionUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+            <list>
+			  <ref bean="sessionInterceptor"/>
+           	  <ref bean="sessionValidateInterceptor"/>
+			</list>
+	    </property>
+		<property name="mappings">
+			<props>
+				<prop key="/checkoutshipping.jhtml">checkoutShippingController</prop>
+				<prop key="/checkoutbilling.jhtml">checkoutBillingController</prop>
+                <prop key="/orderreview.jhtml">orderConfirmationController</prop>
+                <prop key="/ordercomplete.jhtml">orderCompleteController</prop>
+                <prop key="/printorder.jhtml">orderPrintController</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="loginUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+            <list>
+			  <ref bean="sessionInterceptor"/>
+           	  <ref bean="loginInterceptor"/>
+			</list>
+	    </property>
+		<property name="mappings">
+			<props>
+				<prop key="/myaccount.jhtml">myAccountController</prop>
+				<prop key="/myinfo.jhtml">myInfoController</prop>
+				<prop key="/wishlist_lists.jhtml">wishListListsController</prop>
+				<prop key="/addressBook.jhtml">addressBookController</prop>
+				<prop key="/editAddressBook.jhtml">editAddressBookController</prop>
+				<prop key="/order_list.jhtml">orderListController</prop>
+				<prop key="/order_detail.jhtml">orderDetailController</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<bean id="sessionInterceptor" class="com.dl.interceptors.SessionInterceptor"></bean>
+	<bean id="sessionValidateInterceptor" class="com.dl.interceptors.SessionValidateInterceptor"></bean>
+	<bean id="loginInterceptor" class="com.dl.interceptors.LoginInterceptor"></bean>
+
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename"><value>messages</value></property>
+	</bean>
+
+</beans>

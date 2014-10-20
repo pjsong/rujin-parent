@@ -1,0 +1,24 @@
+﻿#parse("include/aboutus/aboutcommon.vm")
+
+<td align=left>
+<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">引入理念</p>
+	<p class="aboutDetail">自动化设备引入3E理念，凝集了三类工程师的控制思维，帮助企业有效控制成本。</p>
+	<div style="padding-left:100px;"><img src="$_url/static/img/about/idea.jpg" width="500px" height="200px" align="center" alt="3E理念"/></div>
+	<hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">产品定位</p>
+	<p class="aboutDetail">立足先进制造业，致力于自动化生产设备和自动化测试设备的研发生产，实现机器取代人手、微电脑取代测试仪器和网络协助管理，推动低成本自动化生产和高速检测。</p>
+	<div style="padding-left:100px;"><img src="$_url/static/img/about/targetproduct.jpg" width="500px" height="200px" align="center" alt="价值观"/></div>
+	<p class="aboutDetail">电池设备<br />
+	涉及圆柱、聚合物和动力电池三大系列产品的制造设备。<br />
+	测试设备<br />
+	涉及电子装配制造行业（电脑周边产品、家电产品和玩具等行业）和电子元器件制造行业（马达、电池、开关、电位器等行业）的测试设备，涵盖工程部门测试设备、品质部门测试设备和生产部门测试设备。<br />
+	产线看板<br />
+	建立网络平台系统，通过数据采集器，自动收集生产线的准确数据（如：设备运行状况、坏机率、生产数量和平衡率等），通过网络反映在现场（电子看板或者电脑上），通过网络知会相关责任人，处理状况通过网络随时知会相关管理者，方便管理者进行有效指挥和监督。<br />
+	非标设备<br />
+	涉及电子装配制造行业和电子元器件制造行业（非电池行业）的制造设备，专为客户授权研发的非标设备，以客户的需求为首任，持续创新研发。<br />
+
+</td>
+</tr></table></td>
+</tr></table>
+</div>

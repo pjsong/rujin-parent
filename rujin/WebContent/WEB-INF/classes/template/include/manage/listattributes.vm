@@ -1,0 +1,7 @@
+﻿<table width="800" align="center" border="1">
+<tr><td colspan=3><a href="$_url/editattribute.jhtml"> 添加产品属性 </a></td><td><form name="form1" id="form1" action="$_url/listattributes.jhtml">产品ID查询<input type="text" size="10" name="pid" id="pid"><input type="button" value="查询" onclick="javascript:form1.submit()"></form></td></tr>
+<tr><th>动作</th><th>ID</th><th>产品ID</th><th>属性名称</th><th>属性值</th><th>显示顺序值</th></tr>
+#foreach($attribute in $attributes)
+<tr><td><a href="$_url/listattributes.jhtml?act=del&id=$attribute.ID">删除</a></td><td>$attribute.ID</td><td><a href="$_url/editattribute.jhtml?act=edit&id=$attribute.ID">$attribute.ProductID</td><td>$attribute.AttrName</td><td>$attribute.AttrValue</td><td>$attribute.DisplayOrder</td></tr>
+#end
+</table>

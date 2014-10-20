@@ -1,0 +1,114 @@
+﻿<html>  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>东莞如金自动化设备科技有限公司</title>
+	<link href="/static/css/rotation.css" type="text/css" rel="stylesheet">
+	<link href="/static/css/header/header.css" type="text/css" rel="stylesheet">
+	<link href="/static/css/homepage.css" type="text/css" rel="stylesheet">
+	<style>
+.s-form {
+    background: url("$!_url/static/img/header/searchBg.gif") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    position: relative;
+    right: -300px;
+    top: -20px;
+    width: 178px;
+}
+.s-form .s-input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 19px;
+    left: 0;
+    line-height: 19px;
+    padding-left: 2px;
+    position: absolute;
+    top: 0;
+    width: 155px;
+}
+.s-form label.header_search_kw {
+    color: #CCCCCC;
+    left: 10px;
+    position: relative;
+    top: 2px;
+}
+.s-form .s-Btn {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 23px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 23px;
+}
+</style>
+	<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.cycle.all.2.72.js"></script>
+	<script type="text/javascript" src="/static/js/register.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('#slideshow').cycle({
+          fx:     'scrollRight',//fade,turnDown,fade,curtainX,scrollRight (click),zoom,shuffle
+          speed:  'slow',//fast
+          timeout: 6000,
+          pager:  '#nav',
+          slideExpr: 'img',
+          pagerEvent: 'mouseover',
+          pauseOnPagerHover: true
+        });
+      });
+    </script>
+<script>
+function checkInput()
+{
+if (document.searchform.searchword.value.indexOf('产品搜索...')!=-1 || document.searchform.searchword.value.trim()==''){
+document.searchform.searchword.value='';
+document.searchform.searchword.focus();
+return false;
+}
+else{
+return true;
+}
+}
+ </script>
+</head><body  style="background-color: #fafafa;">
+<table style="background-color: #8a8a8a;/*h160,b120*/" align="center" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td rowspan=2 height="120" width="380" valign="center" align="center"><a href="$_url/"><img height="79" width="200" alt="东莞如金自动化设备科技有限公司" src="$_url/static/img/logo1-1.jpg" style=""></a></td>
+	<td valign="bottom" align="center" style="width:700px;">
+        <table width="600px" cellspacing="0" cellpadding="0" border="0"  style="font-size:12px;">
+          <tbody>
+          <tr>
+			##<td valign="bottom" style="padding-bottom:0px;width:200px;"><span class="headerlanguage">
+			##<a href="$_url/index_big.jhtml"> 繁體 </a>|<a href="$_url/index_eng.jhtml"> ENGLISH </a></span></td>
+            <td align="right" style="height:70px;" colspan=7 valign="top">
+			<form method="post" name="searchform" id="searchform" action="$_url/searchproducts.jhtml">
+				<table width="500px" cellspacing="0" cellpadding="0" border="0"  style="font-size:12px;">
+				<tr><td>
+				<select id="languageBox" name="languageBox" onchange="javascript:window.location.href=this.value" style="font-size:12px;background-color: #C9C9C9;">
+					<option value="index.jhtml">简体中文</option><option value="index_big.jhtml">繁體中文</option><option value="index_eng.jhtml">English</option>
+				</select>
+				#if($customer)
+				<a href="reg.jhtml?act=showact">$customer.loginName</a> | <a href="$_url/logout.jhtml">退出登录</a> #if($administrator) | <a href="$_url/manage.jhtml">管理产品</a> #end</td>
+				#else
+				<a href="$_url/login.jhtml">用户登录</a> | <a href="$_url/reg.jhtml">新用户注册</a> | <a href="$_url/searchpass.jhtml">忘记密码</a>
+##				<input type="text" style="background-color: #C9C9C9;" id="searchword" name="searchword" value= "#if($searchKeyword)$!searchKeyword #else 产品搜索...#end"  onclick="javascript:checkInput()"><img style="cursor: pointer;position:relative;left:-19px;top:2px;" src="$!_url/static/img/header/searchBg.gif" onclick="javascript:searchform.submit();">
+             <div class="s-form" onclick="javascript:checkInput()">
+            	<input type="text" class="s-input" id="searchword" name="searchword" #if($searchKeyword)value="$!searchKeyword" #else value="产品搜索..."#end">
+				  <input type="submit" value="&nbsp;" class="s-Btn">
+            </div>              
+				</td></tr>
+                <tbody>
+				#end
+              </tbody></table>
+			  </form>
+            </td>
+          </tr><tr><td align="left" colspan=8 style="padding-top:12px;"><div id="menu">
+		<a href="$_url/index.jhtml">&nbsp;&nbsp;首页&nbsp;</a> <span class="seperator"> | <a href="$_url/about/aboutus.jhtml">&nbsp;&nbsp;关于如金&nbsp;</a> <span class="seperator"> | <a href="$_url/videos.jhtml">&nbsp;产品视频</a>&nbsp;<span class="seperator"> | </span><a href="$_url/products.jhtml">&nbsp;产品浏览&nbsp;</a>&nbsp;<span class="seperator"> | </span><a href="$_url/about/solutions.jhtml">&nbsp;经典案例&nbsp;</a>&nbsp;<span class="seperator"> | </span>
+		</span><a href="$_url/about/recruit.jhtml">&nbsp;人才招聘&nbsp;&nbsp;</a><span class="seperator"> | </span><a href="$_url/about/customerservice.jhtml">&nbsp;联系我们&nbsp;&nbsp;</a></div><td>      </tr>
+        </tbody></table>
+    </td>
+	<td style="width:300px;"></td>
+  </tr>
+</tbody></table>
+
+##<!-- about/news1.jhtml -- ><!-- about/solutions.jhtml -->

@@ -1,0 +1,6 @@
+#parse("include/header_big.vm")
+<div style="background:url('/static/img/body/background.jpg') repeat-x fixed top center; #if($!id=="" || $!id=="1" || $!id=="2")height:600px; #else height:600px #end">
+#parse("include/breadcrum_big.vm")
+#parse("include/recruit/recruit_big.vm")
+</div>
+#parse("include/footer_big.vm")x

@@ -1,0 +1,85 @@
+﻿<style type="text/css">
+.jdd {
+    float: right;
+    margin-bottom: 5px;
+    width: 100%;
+	font-size: 12px;
+	text-align: left;
+/*	color: #565555;*/
+}
+.jdd ul li span {
+/*    display: block;*/
+    float: left;
+    padding-left: 15px;
+    width: 120px;
+}
+.jdd ul li {
+    float: left;
+/*    
+	border-bottom: 1px solid #EEEEEE;
+    font-weight: bold;
+*/
+    line-height: 26px;
+    padding: 2px 0px;
+    width: 100%;
+}
+.jdd ul li div {
+    float: left;
+    width: 540px;
+}
+.zhaopin{
+font-weight:bold;
+font-family:"Microsoft YaHei",微软雅黑,arial;
+height:24px;
+font-size:14px;
+padding-top:5px;
+}
+.aboutHeader{
+	color: #B60005;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 12px;
+    padding-top: 10px;
+}
+.aboutDetail {
+    line-height: 26px;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+</style>
+<link href="/static/css/body/nav.css" type="text/css" rel="stylesheet">
+<table width="100%" border="0">
+<tr><td valign="top" width="320px">
+	<table class="nav" border="0" width="150px" align="right">
+		<tr><td align="center"><a href="$_url/about/recruit.jhtml?id=1" style = #if($id=='1')color:#00ffff;#else color:#ffff00;#end">电气自动化工程师</a></td></tr>
+		<tr><td align="center"><a href="$_url/about/recruit.jhtml?id=2" style = #if($id=='2')color:#00ffff;#else color:#ffff00;#end">结构设计工程师</a></td></tr>
+	</table></td>
+	<td valign="top">
+			<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" valign="top">## style="padding-left:20px;padding-top:-15px;"
+            <tbody>
+            <tr>
+              <td valign="top" height="600" align="left" style="font-size:12px;" colspan="2">
+				<p class="aboutHeader">职位名称：结构设计工程师</p>
+				<table width="100%" cellspacing="2" cellpadding="3" bordercolor="#ffffff" border="0" align="center" style="WIDTH: 100%; BORDER-COLLAPSE: collapse; TEXT-ALIGN: center">
+				<tbody>
+				<tr>
+				<td><div class="jdd">
+				<ul>
+					<li><span>所属单位：</span><div>研发部</div></li>
+					<li><span>所属职位类别：</span><div>研发技术类</div></li>
+					<li><span>工作地点：</span><div>东莞市</div></li>
+					<li><span>需求人数：</span><div>2人</div></li>
+					<li><span>最低工作年限：</span><div>5年</div></li>
+					<li><span>最低学历：</span><div>本科</div></li>
+					<li><span>发布有效日期：</span><div>2012-1-6 至 2012-07-6</div></li>
+					<li><span>职位薪酬：</span><div>面议</div></li>
+					<li><span>职位描述：</span><div><p style="line-height:10px">&nbsp;</p>1、本科及以上学历，机械工程类专业；<br>
+							2、5年以上机械设计工作经验，动手能力强，具有非标设备电气设计，有制造电池设备方面经验优先；<br>
+							3、熟练使用Pro-E、UG或Solidworks,AuoCAD等软件； <br>
+							4、良好的英文水平，团队协作能力，良好的表达及沟通能力；<br>
+					</li></ul>
+				</div></td></tr></tbody></table>
+             </td>
+              </tr>
+          </tbody></table>

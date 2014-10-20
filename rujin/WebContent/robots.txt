@@ -1,0 +1,6 @@
+#####<!--http://www.baidu.com/search/sitemap_help.html -->
+
+Sitemap: http://www.ruking-cn.com/sitemap.xml
+
+User-agent: *
+Disallow: /cgi-bin/

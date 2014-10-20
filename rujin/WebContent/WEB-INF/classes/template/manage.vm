@@ -1,0 +1,3 @@
+#parse("include/header.vm")
+#parse("include/manage/manage.vm")
+#parse("include/footer.vm")

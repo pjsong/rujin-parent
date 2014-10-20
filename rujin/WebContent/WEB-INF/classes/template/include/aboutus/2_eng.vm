@@ -1,0 +1,29 @@
+﻿#parse("include/aboutus/aboutcommon_eng.vm")
+
+<td align=left>
+<table width="800" border="0" align="center"><tr><td width="100%">
+	<p class="aboutHeader">Vision of Ruking</p>
+	<p class="aboutDetail">Helping the Manufacturing Industry to improve their competitiveness</p>
+	<hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">Destination</p>
+	<p class="aboutDetail">Designing Automated Devices with wisdom and heart, improving the level of cost for automated producing, processing detecting and coordinations。</p>
+	<hr / style="color:#ebebeb;height:2px;">
+	<p class="aboutHeader">Code of Value</p>
+	<p class="aboutDetail">Code of Value, which comes from our inner-most belief, is the power of this company, and also a promises to customers. From it we keep on making profit for our customers, and further growing a grateful mind.</p>
+	<p class="aboutDetail">For Customers Achievements<br />
+	Requirements from customers is our power for going forward。We'll always keeping customer centered, ensuring quick responses to customer's requirements, and creating long-term value for customers, helping them to succeed.
+	</p>
+	<p class="aboutDetail">Broader Vision From a Group<br />
+	Research advanced technologies, competitive products and solutions by collecting opinions from our customers our team group。
+	</p>
+	<p class="aboutDetail">Innovation<br />
+	Under the corporation's creative environment, form a team group with inspiration, being open, aggressive, and perseverant to achievement.
+	</p>
+	<p class="aboutDetail">Grateful Mind, Win Together<br />
+	Ruking is a company OF all related, BY all related, and FOR all related, which includes Ruking staffs, share holders, and Ruking customers. Only by profiting with all related, Ruking could survive crisis, grow a grateful mind and achieve our goal. Ruking always welcome 'Enterpreneur Spirit', and encourage all our staffs 'Enterpreneur Spirit', so each staffs could do work proactively and be his own CEO, to achieve his goal.
+	</p>	
+	<br /><br /><br /><br /><br /><br />
+</td>
+</tr></table></td>
+</tr></table>
+</div>
